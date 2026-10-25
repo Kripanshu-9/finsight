@@ -1,0 +1,466 @@
+company_id,fiscal_year,document_id,item_code,current,previous,page,label_as_reported,method
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,borrowings_current,731.12,334.05,150,Borrowings 15,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,borrowings_non_current,44.54,14.53,150,Borrowings 15,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,capital_expenditure,538.24,281.87,153,"Purchase of Property, plant and equipment and other intangible assets",matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,cash_and_cash_equivalents,621.72,346.39,150,Cash and Cash Equivalents 8A,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,change_in_inventories,-1324.97,-92.45,151,"Changes in inventories of finished goods, Stock-in-Trade and work-in-progress 25C",matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,cost_of_materials_consumed,16254.59,10317.09,151,Cost of Materials Consumed 25A,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,current_investments,2180.7,3267.12,150,Investments 5,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,depreciation_amortisation,816.36,791.27,151,Depreciation and Amortisation Expense 29,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,employee_benefits_expense,1786.67,1540.75,151,Employee Benefits Expense 26,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,equity_attributable_to_owners,13811.56,12806.29,150,Equity attributable to owners of the Company,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,exceptional_items,-115.7,0.0,151,Exceptional items 39,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,finance_costs,95.41,91.63,151,Finance Costs 28,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,inventories,6152.98,3798.6,150,Inventories 11,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,net_cash_from_operating_activities,986.49,3683.35,153,Net Cash generated from Operating activities,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,non_controlling_interests,387.53,422.86,150,Non-Controlling Interests 14,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,other_bank_balances,242.61,264.36,150,Other Balances with Banks 8B,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,other_expenses,4210.25,3219.21,151,Other Expenses 27,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,other_income,380.01,303.05,151,Other Income 24,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,profit_attributable_to_owners,3030.57,3139.29,151,Owners of the Company,matched_after_profit
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,profit_before_exceptional,4303.42,4304.35,151,PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,profit_before_tax,4187.72,4304.35,151,PROFIT BEFORE TAX,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,profit_for_the_year,3084.81,3206.75,151,PROFIT AFTER TAX,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,purchases_of_stock_in_trade,3371.13,1872.59,151,Purchases of Stock-in-Trade 25B,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,revenue_from_operations,29101.28,21712.79,151,Revenue from Sale of Products 23A + Revenue from Sale of Services 23A + Other Operating Revenue 23A,sum_of_parts
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,share_of_profit_associates_jv,31.57,28.6,151,Share of profit in Associate 34,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,tax_expense,1102.91,1097.6,151,Total tax expense,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,total_assets,22984.45,20369.62,150,Total Assets,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,total_equity,14199.09,13229.15,150,(unlabelled subtotal after non-controlling interests),unlabelled_subtotal
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,total_equity_and_liabilities,22984.45,20369.62,150,Total Equity And Liabilities,matched
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,trade_payables,4164.3,3378.72,150,Trade payables: MSME dues + other creditors,sum_of_parts
+ASIANPAINT,2022,ASIANPAINT_FY2022_AR,trade_receivables,3871.44,2602.17,150,Trade Receivables 6,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,borrowings_current,896.06,731.12,190,Borrowings 16,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,borrowings_non_current,76.15,44.54,190,Borrowings 16,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,capital_expenditure,1273.37,538.24,193,"Purchase of property, plant and equipment and other intangible assets",matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,cash_and_cash_equivalents,523.1,621.72,190,Cash and Cash Equivalents 8A,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,change_in_inventories,-309.73,-1324.97,191,"Changes in inventories of finished goods, Stock-in-Trade and work-in-progress 25C",matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,cost_of_materials_consumed,17330.58,16254.59,191,Cost of Materials Consumed 25A,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,current_investments,2697.0,2180.7,190,Investments 5,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,depreciation_amortisation,858.02,816.36,191,Depreciation and Amortisation Expense 29,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,employee_benefits_expense,2028.07,1786.67,191,Employee Benefits Expense 26,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,equity_attributable_to_owners,15992.23,13811.56,190,Equity attributable to owners of the Company,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,exceptional_items,-48.87,-115.7,191,Exceptional Items 41,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,finance_costs,144.45,95.41,191,Finance Costs 28,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,inventories,6210.64,6152.98,190,Inventories 12,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,net_cash_from_operating_activities,4193.43,986.49,193,Net Cash generated from Operating activities,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,non_controlling_interests,453.66,387.53,190,Non-Controlling Interests 15,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,other_bank_balances,320.72,242.61,190,Other Balances with Banks 8B,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,other_expenses,5044.18,4210.25,191,Other Expenses 27,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,other_income,386.48,380.01,191,Other Income 24,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,profit_attributable_to_owners,4106.45,3030.57,191,Owners of the Company,matched_after_profit
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,profit_before_exceptional,5737.7,4303.42,191,PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,profit_before_tax,5688.83,4187.72,191,PROFIT BEFORE TAX,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,profit_for_the_year,4195.33,3084.81,191,PROFIT AFTER TAX,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,purchases_of_stock_in_trade,4135.65,3371.13,191,Purchases of Stock-in-Trade 25B,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,revenue_from_operations,34488.59,29101.28,191,Revenue from Sale of Products 23A + Revenue from Sale of Services 23A + Other Operating Revenue 23A,sum_of_parts
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,share_of_profit_associates_jv,93.85,31.57,191,Share of profit in Associates 38,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,tax_expense,1493.5,1102.91,191,Total tax expense,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,total_assets,25798.0,22984.45,190,Total Assets,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,total_equity,16445.89,14199.09,190,(unlabelled subtotal after non-controlling interests),unlabelled_subtotal
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,total_equity_and_liabilities,25798.0,22984.45,190,Total Equity and Liabilities,matched
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,trade_payables,3635.44,4164.3,190,Trade payables: MSME dues + other creditors,sum_of_parts
+ASIANPAINT,2023,ASIANPAINT_FY2023_AR,trade_receivables,4636.94,3871.44,190,Trade Receivables 6,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,borrowings_current,1052.76,896.06,209,Borrowings 15,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,borrowings_non_current,54.38,76.15,209,Borrowings 15,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,capital_expenditure,2199.01,1273.37,212,"Purchase of property, plant and equipment and other intangible assets",matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,cash_and_cash_equivalents,829.34,523.1,209,Cash and Cash Equivalents 8A,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,change_in_inventories,363.8,-309.73,210,"Changes in inventories of finished goods, Stock-in-Trade and work-in-progress 24C",matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,cost_of_materials_consumed,15868.21,17330.58,210,Cost of Materials Consumed 24A,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,current_investments,3203.41,2697.0,209,Investments 5,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,depreciation_amortisation,853.0,858.02,210,Depreciation and Amortisation Expense 28,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,employee_benefits_expense,2326.18,2028.07,210,Employee Benefits Expense 25,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,equity_attributable_to_owners,18728.3,15992.23,209,Equity attributable to owners of the Company,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,exceptional_items,0.0,-48.87,210,Exceptional Items 39,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,finance_costs,205.17,144.45,210,Finance Costs 27,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,inventories,5923.41,6210.64,209,Inventories 12,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,net_cash_from_operating_activities,6103.6,4193.43,212,Net Cash generated from Operating activities,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,non_controlling_interests,695.38,453.66,209,Non-Controlling Interests 14,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,other_bank_balances,254.67,320.72,209,Other Balances with Banks 8B,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,other_expenses,5493.36,5044.18,210,Other Expenses 26,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,other_income,687.96,386.48,210,Other Income 23,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,profit_attributable_to_owners,5460.23,4106.45,210,Owners of the Company,matched_after_profit
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,profit_before_exceptional,7347.77,5737.7,210,PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,profit_before_tax,7347.77,5688.83,210,PROFIT BEFORE TAX,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,profit_for_the_year,5557.69,4195.33,210,PROFIT AFTER TAX,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,purchases_of_stock_in_trade,3858.2,4135.65,210,Purchases of Stock-in-Trade 24B,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,revenue_from_operations,35494.73,34488.59,210,Revenue from Sale of Products 22A + Revenue from Sale of Services 22A + Other Operating Revenue 22A,sum_of_parts
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,share_of_profit_associates_jv,133.0,93.85,210,Share of profit in Associates 36,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,tax_expense,1790.08,1493.5,210,Total tax expense,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,total_assets,29924.09,25798.0,209,TOTAL ASSETS,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,total_equity,19423.68,16445.89,209,(unlabelled subtotal after non-controlling interests),unlabelled_subtotal
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,total_equity_and_liabilities,29924.09,25798.0,209,TOTAL EQUITY AND LIABILITIES,matched
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,trade_payables,3831.34,3635.44,209,Trade payables: MSME dues + other creditors,sum_of_parts
+ASIANPAINT,2024,ASIANPAINT_FY2024_AR,trade_receivables,4889.05,4636.94,209,Trade Receivables 6,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,borrowings_current,604.13,1052.76,223,Borrowings 15,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,borrowings_non_current,259.62,54.38,223,Borrowings 15,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,capital_expenditure,1805.32,2199.01,226,"Purchase of property, plant and equipment and other intangible assets",matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,cash_and_cash_equivalents,445.28,829.34,223,Cash and Cash Equivalents 8A,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,change_in_inventories,-205.0,363.8,224,"Changes in inventories of finished goods, Stock-in-Trade and Work-in-progress 24C",matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,cost_of_materials_consumed,15793.92,15868.21,224,Cost of Materials Consumed 24A,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,current_investments,3244.96,3203.41,223,Investments 5,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,depreciation_amortisation,1026.34,853.0,224,Depreciation and Amortisation Expense 28,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,employee_benefits_expense,2597.23,2326.18,224,Employee Benefits Expense 25,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,equity_attributable_to_owners,19399.81,18728.3,223,Equity attributable to owners of the Company,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,exceptional_items,-363.1,0.0,224,Exceptional Items 39,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,finance_costs,227.02,205.17,224,Finance Costs 27,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,inventories,6719.27,5923.41,223,Inventories 12,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,net_cash_from_operating_activities,4423.96,6103.6,226,Net Cash generated from Operating activities,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,non_controlling_interests,659.24,695.38,223,Non-Controlling Interests 14,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,other_bank_balances,336.7,254.67,223,Other Balances with Banks 8B,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,other_expenses,5786.4,5493.36,224,Other Expenses 26,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,other_income,572.61,687.96,224,Other Income 23,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,profit_attributable_to_owners,3667.23,5460.23,224,Owners of the Company,matched_after_profit
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,profit_before_exceptional,5466.17,7347.77,224,PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,profit_before_tax,5103.07,7347.77,224,PROFIT BEFORE TAX,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,profit_for_the_year,3709.71,5557.69,224,PROFIT AFTER TAX,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,purchases_of_stock_in_trade,3926.86,3858.2,224,Purchases of Stock-in-Trade 24B,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,revenue_from_operations,33905.62,35494.73,224,Revenue from Sale of Products 22A + Revenue from Sale of Services 22A + Other Operating Revenue 22A,sum_of_parts
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,share_of_profit_associates_jv,140.71,133.0,224,Share of profit in Associates 36,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,tax_expense,1393.36,1790.08,224,Total tax expense,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,total_assets,30371.37,29924.09,223,TOTAL ASSETS,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,total_equity,20059.05,19423.68,223,(unlabelled subtotal after non-controlling interests),unlabelled_subtotal
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,total_equity_and_liabilities,30371.37,29924.09,223,TOTAL EQUITY AND LIABILITIES,matched
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,trade_payables,3848.0,3831.34,223,Trade payables: MSME dues + other creditors,sum_of_parts
+ASIANPAINT,2025,ASIANPAINT_FY2025_AR,trade_receivables,4313.65,4889.05,223,Trade Receivables 6,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,borrowings_current,1046.09,604.13,233,Borrowings 16,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,borrowings_non_current,1247.17,259.62,233,Borrowings 16,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,capital_expenditure,1467.02,1805.32,236,"Purchase of property, plant and equipment and other intangible assets",matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,cash_and_cash_equivalents,672.83,445.28,233,Cash and Cash Equivalents 9A,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,change_in_inventories,603.68,-205.0,234,"Changes in Inventories of Finished Goods, Stock-in-Trade and Work-in-Progress 25C",matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,cost_of_materials_consumed,15384.05,15793.92,234,Cost of Materials Consumed 25A,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,current_investments,6285.83,3244.96,233,Investments 5,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,depreciation_amortisation,1228.85,1026.34,234,Depreciation and Amortisation Expense 29,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,employee_benefits_expense,2799.59,2597.23,234,Employee Benefits Expense 26,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,equity_attributable_to_owners,21371.59,19399.81,233,Equity attributable to owners of the Company,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,exceptional_items,-157.61,-363.1,234,Exceptional Items 40,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,finance_costs,195.41,227.02,234,Finance Costs 28,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,inventories,5743.69,6719.27,233,Inventories 13,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,net_cash_from_operating_activities,7088.18,4423.96,236,Net Cash generated from Operating activities,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,non_controlling_interests,643.39,659.24,233,Non-Controlling Interests 15,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,other_bank_balances,400.85,336.7,233,Other Balances with Banks 9B,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,other_expenses,6086.25,5786.4,234,Other Expenses 27,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,other_income,723.8,572.61,234,Other Income 24,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,profit_attributable_to_owners,4325.35,3667.23,234,Owners of the Company,matched_after_profit
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,profit_before_exceptional,6161.05,5466.17,234,PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,profit_before_tax,6003.44,5103.07,234,PROFIT BEFORE TAX,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,profit_for_the_year,4394.69,3709.71,234,PROFIT AFTER TAX,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,purchases_of_stock_in_trade,4014.05,3926.86,234,Purchases of Stock-in-Trade 25B,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,revenue_from_operations,35583.54,33905.62,234,Revenue from Sale of Products 23A + Revenue from Sale of Services 23A + Other Operating Revenue 23A,sum_of_parts
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,share_of_profit_associates_jv,165.59,140.71,234,Share of profit in Associates 37,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,tax_expense,1608.75,1393.36,234,Total tax expense,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,total_assets,34534.49,30371.37,233,TOTAL ASSETS,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,total_equity,22014.98,20059.05,233,(unlabelled subtotal after non-controlling interests),unlabelled_subtotal
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,total_equity_and_liabilities,34534.49,30371.37,233,TOTAL EQUITY AND LIABILITIES,matched
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,trade_payables,3863.04,3848.0,233,Trade payables: MSME dues + other creditors,sum_of_parts
+ASIANPAINT,2026,ASIANPAINT_FY2026_AR,trade_receivables,4461.8,4313.65,233,Trade Receivables 6,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,borrowings_current,658.1,209.92,263,(a) Borrowings 25,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,borrowings_non_current,9.83,165.65,263,(a) Borrowings 21a,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,capital_expenditure,774.02,186.09,267,"Purchase of Property, plant and equipment and intangible assets (including capital work in progress)",matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,cash_and_cash_equivalents,103.3,136.22,263,(c) Cash and cash equivalents 15,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,change_in_inventories,-381.49,-186.65,264,"(Increase)/decrease in inventories of finished goods, work-in-progress and traded goods 36",matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,cost_of_materials_consumed,5046.77,3437.58,264,Cost of materials consumed 34,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,current_investments,87.27,209.78,263,(a) Investments 13,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,depreciation_amortisation,226.51,211.14,264,Depreciation and amortisation expense 39,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,employee_benefits_expense,543.12,485.14,264,Employee benefits expense 37,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,equity_attributable_to_owners,3926.99,3376.87,263,Equity attributable to equity holders of the parent,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,exceptional_items,0.0,0.0,,,absent_nil
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,finance_costs,50.72,44.1,264,Finance costs 38,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,inventories,2315.83,1616.13,263,Inventories 12,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,net_cash_from_operating_activities,566.5,795.76,267,Net cash flows from operating activities (A),matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,non_controlling_interests,7.17,7.06,263,Non-controlling interest 20,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,other_bank_balances,209.65,303.39,263,(d) Bank balances other than (c) above 16,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,other_expenses,1458.52,1275.91,264,Other expenses 40,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,other_income,64.59,51.49,264,Other income 33,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,profit_attributable_to_owners,832.82,719.75,264,-Equity holders of the parent,matched_after_profit
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,profit_before_exceptional,1122.29,978.62,264,(no exceptional items: equals profit before tax),equals_profit_before_tax
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,profit_before_tax,1122.29,978.62,264,Profit before tax,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,profit_for_the_year,832.95,719.72,264,Profit for the year (I),matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,purchases_of_stock_in_trade,763.79,617.63,264,Purchases of traded goods 35,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,revenue_from_operations,8761.78,6817.59,264,Revenue from operations 32,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,share_of_profit_associates_jv,3.86,-5.61,264,Share of profit/(loss) in joint ventures 8,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,tax_expense,289.34,258.9,264,(unlabelled subtotal under Tax expense),unlabelled_subtotal
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,total_assets,7212.66,5921.05,263,Total assets,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,total_equity,3934.16,3383.93,263,Total Equity,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,total_equity_and_liabilities,7212.66,5921.05,263,Total equity and liabilities,matched
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,trade_payables,1802.89,1497.44,263,Trade payables: MSME dues + other creditors,sum_of_parts
+BERGEPAINT,2022,BERGEPAINT_FY2022_AR,trade_receivables,1053.68,1019.72,263,(b) Trade receivables 14,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,borrowings_current,759.88,658.1,160,(a) Borrowings 27,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,borrowings_non_current,7.77,9.83,160,(a) Borrowings 22,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,capital_expenditure,748.04,774.02,162,"Purchase of property, plant and equipment and intangible assets (including capital work in progress and intangible assets under development)",matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,cash_and_cash_equivalents,116.17,103.3,160,(c) Cash and cash equivalents 15,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,change_in_inventories,-93.24,-381.49,160,"Increase in inventories of finished goods, work-in-progress and traded goods 38",matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,cost_of_materials_consumed,5852.62,5046.77,160,Cost of materials consumed 36,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,current_investments,52.96,87.27,160,(a) Investments 13,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,depreciation_amortisation,264.03,226.51,160,Depreciation and amortisation expense 41,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,employee_benefits_expense,609.19,543.12,160,Employee benefits expense 39,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,equity_attributable_to_owners,4494.12,3926.99,160,Equity attributable to equity holders of the parent,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,exceptional_items,0.0,0.0,,,absent_nil
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,finance_costs,99.23,50.72,160,Finance costs 40,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,inventories,2319.12,2315.83,160,Inventories 12,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,net_cash_from_operating_activities,975.97,566.5,162,Net cash flows from operating activities (A),matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,non_controlling_interests,8.14,7.17,160,Non-controlling interest 21,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,other_bank_balances,128.52,209.65,160,(d) Bank balances other than (c) above 16,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,other_expenses,1740.93,1458.52,160,Other expenses 42,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,other_income,51.57,64.59,160,Other income 35,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,profit_attributable_to_owners,859.42,832.82,160,-Equity holders of the parent,matched_after_profit
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,profit_before_exceptional,1162.34,1122.29,160,(no exceptional items: equals profit before tax),equals_profit_before_tax
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,profit_before_tax,1162.34,1122.29,160,Profit before tax,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,profit_for_the_year,860.4,832.95,160,Profit for the year (I),matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,purchases_of_stock_in_trade,971.14,763.79,160,Purchases of traded goods 37,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,revenue_from_operations,10567.84,8761.78,160,Revenue from operations 34,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,share_of_profit_associates_jv,-13.17,3.86,160,Share of profit/(loss) in joint ventures 8a,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,tax_expense,301.94,289.34,160,Total tax expense,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,total_assets,7967.17,7212.66,160,Total assets,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,total_equity,4502.26,3934.16,160,Total Equity,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,total_equity_and_liabilities,7967.17,7212.66,160,Total equity and liabilities,matched
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,trade_payables,1765.69,1802.89,160,Trade payables: MSME dues + other creditors,sum_of_parts
+BERGEPAINT,2023,BERGEPAINT_FY2023_AR,trade_receivables,1243.12,1053.68,160,(b) Trade receivables 14,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,borrowings_current,199.44,759.88,209,(a) Borrowings 28,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,borrowings_non_current,6.0,7.77,209,(a) Borrowings 23,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,capital_expenditure,274.99,748.04,211,"Purchase of property, plant and equipment and intangible assets",matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,cash_and_cash_equivalents,240.26,116.17,209,(c) Cash and cash equivalents 16,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,change_in_inventories,124.75,-93.24,209,"(Increase)/decrease in inventories of finished goods, stock-in-trade and work-in-progress 39",matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,cost_of_materials_consumed,5597.48,5852.62,209,Cost of materials consumed 37,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,current_investments,85.91,52.96,209,(a) Investments 14,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,depreciation_amortisation,330.88,264.03,209,Depreciation and amortisation expense 42,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,employee_benefits_expense,713.03,609.19,209,Employee benefits expense 40,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,equity_attributable_to_owners,5378.97,4494.12,209,Equity attributable to equity holders of the parent,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,exceptional_items,0.0,0.0,,,absent_nil
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,finance_costs,78.25,99.23,209,Finance costs 41,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,inventories,2179.68,2319.12,209,Inventories 13,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,net_cash_from_operating_activities,1591.05,975.57,211,Net cash flows from operating activities (A),matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,non_controlling_interests,10.2,8.14,209,Non-controlling interest 22,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,other_bank_balances,210.39,128.52,209,(d) Bank balances other than (c) above 17,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,other_expenses,1978.57,1740.93,209,Other expenses 43,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,other_income,63.68,51.57,209,Other income 36,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,profit_attributable_to_owners,1167.74,859.42,209,-Equity holders of the parent,matched_after_profit
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,profit_before_exceptional,1556.89,1162.34,209,(no exceptional items: equals profit before tax),equals_profit_before_tax
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,profit_before_tax,1556.89,1162.34,209,Profit before tax,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,profit_for_the_year,1169.82,860.4,209,Profit for the year (I),matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,purchases_of_stock_in_trade,923.77,971.14,209,Purchases of stock-in-trade 38,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,revenue_from_operations,11198.92,10567.84,209,Revenue from operations 35,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,share_of_profit_associates_jv,41.02,-13.17,209,Share of profit/(loss) in joint ventures 8a,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,tax_expense,387.07,301.94,209,Total tax expense,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,total_assets,8368.66,7967.17,209,Total assets,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,total_equity,5389.17,4502.26,209,Total Equity,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,total_equity_and_liabilities,8368.66,7967.17,209,Total equity and liabilities,matched
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,trade_payables,1679.21,1765.69,209,Trade payables: MSME dues + other creditors,sum_of_parts
+BERGEPAINT,2024,BERGEPAINT_FY2024_AR,trade_receivables,1302.02,1243.12,209,(b) Trade receivables 15,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,borrowings_current,143.28,199.44,205,(a) Borrowings 28,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,borrowings_non_current,2.96,6.0,205,(a) Borrowings 23,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,capital_expenditure,429.44,274.99,207,"Purchase of property, plant and equipment and intangible assets",matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,cash_and_cash_equivalents,253.95,240.26,205,(c) Cash and cash equivalents 16,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,change_in_inventories,-134.41,124.75,205,"(Increase)/decrease in inventories of finished goods, stock-in-trade and work-in-progress 39",matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,cost_of_materials_consumed,5874.69,5597.48,205,Cost of materials consumed 37,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,current_investments,333.68,85.91,205,(a) Investments 14,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,depreciation_amortisation,354.19,330.88,205,Depreciation and amortisation expense 42,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,employee_benefits_expense,814.7,713.03,205,Employee benefits expense 40,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,equity_attributable_to_owners,6154.1,5378.97,205,Equity attributable to equity holders of the parent,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,exceptional_items,0.0,0.0,,,absent_nil
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,finance_costs,63.27,78.25,205,Finance costs 41,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,inventories,2366.14,2179.68,205,Inventories 13,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,net_cash_from_operating_activities,1269.05,1591.05,207,Net cash flows from operating activities (A),matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,non_controlling_interests,12.59,10.2,205,Non-controlling interest 22,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,other_bank_balances,246.53,210.39,205,(d) Bank balances other than (c) above 17,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,other_expenses,2111.99,1978.57,205,Other expenses 43,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,other_income,94.78,63.68,205,Other income 36,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,profit_attributable_to_owners,1180.4,1167.74,205,Equity holders of the parent,matched_after_profit
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,profit_before_exceptional,1568.47,1556.89,205,(no exceptional items: equals profit before tax),equals_profit_before_tax
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,profit_before_tax,1568.47,1556.89,205,Profit before tax,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,profit_for_the_year,1182.81,1169.82,205,Profit for the year (I),matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,purchases_of_stock_in_trade,1021.65,923.77,205,Purchases of stock-in-trade 38,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,revenue_from_operations,11544.71,11198.92,205,Revenue from operations 35,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,share_of_profit_associates_jv,35.06,41.02,205,"Share of profit in joint ventures, net of tax 8a",matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,tax_expense,385.66,387.07,205,Total tax expense,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,total_assets,9131.64,8368.66,205,Total assets,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,total_equity,6166.69,5389.17,205,Total Equity,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,total_equity_and_liabilities,9131.64,8368.66,205,Total equity and liabilities,matched
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,trade_payables,1740.27,1679.21,205,Trade payables: MSME dues + other creditors,sum_of_parts
+BERGEPAINT,2025,BERGEPAINT_FY2025_AR,trade_receivables,1535.67,1302.02,205,(b) Trade receivables 15,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,borrowings_current,126.53,143.28,204,(a) Borrowings 28,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,borrowings_non_current,15.71,2.96,204,(a) Borrowings 23,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,capital_expenditure,517.97,429.44,206,"Purchase of property, plant and equipment and intangible assets",matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,cash_and_cash_equivalents,207.24,253.95,204,(c) Cash and cash equivalents 17,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,change_in_inventories,-74.38,-134.41,204,"Changes in inventories of finished goods, stock-in-trade and work-in-progress 39",matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,cost_of_materials_consumed,5839.81,5874.69,204,Cost of materials consumed 37,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,current_investments,953.54,333.68,204,(a) Investments 15,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,depreciation_amortisation,392.09,354.19,204,Depreciation and amortisation expense 42,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,employee_benefits_expense,912.8,814.7,204,Employee benefits expense 40,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,equity_attributable_to_owners,6916.16,6154.1,204,Equity attributable to owners of the Company,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,exceptional_items,-53.29,0.0,204,Exceptional item 32,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,finance_costs,57.57,63.27,204,Finance costs 41,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,inventories,2393.23,2366.14,204,Inventories 14,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,net_cash_from_operating_activities,1540.04,1269.05,206,Net cash flows from operating activities (A),matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,non_controlling_interests,13.74,12.59,204,Non-controlling interest 22,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,other_bank_balances,98.07,246.53,204,(d) Bank balances other than (c) above 18,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,other_expenses,2306.89,2111.99,204,Other expenses 43,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,other_income,106.7,94.78,204,Other income 36,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,profit_attributable_to_owners,1126.87,1180.4,204,Owners of the Company,matched_after_profit
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,profit_before_exceptional,1541.39,1568.47,204,Profit before exceptional item & tax,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,profit_before_tax,1488.1,1568.47,204,Profit before tax,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,profit_for_the_year,1128.02,1182.81,204,Profit for the year (I),matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,purchases_of_stock_in_trade,1061.83,1021.65,204,Purchases of stock-in-trade 38,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,revenue_from_operations,11880.25,11544.71,204,Revenue from operations 35,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,share_of_profit_associates_jv,51.05,35.06,204,"Share of profit in joint ventures, net of tax 8a",matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,tax_expense,360.08,385.66,204,Total tax expense,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,total_assets,10057.26,9131.64,204,Total assets,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,total_equity,6929.9,6166.69,204,Total Equity,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,total_equity_and_liabilities,10057.26,9131.64,204,Total equity and liabilities,matched
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,trade_payables,1745.03,1740.27,204,Trade payables: MSME dues + other creditors,sum_of_parts
+BERGEPAINT,2026,BERGEPAINT_FY2026_AR,trade_receivables,1565.22,1535.67,204,(b) Trade receivables 16,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,borrowings_current,192.06,155.91,312,Borrowings............................................................................... 21,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,borrowings_non_current,10.94,17.19,312,Borrowings............................................................................... 18,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,capital_expenditure,219.01,103.79,315,"Purchase of Property, Plant and Equipment and Other Intangible Assets",matched
+KANSAINER,2022,KANSAINER_FY2022_AR,cash_and_cash_equivalents,77.04,102.94,312,Cash and Cash Equivalents.......................................................... 12,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,change_in_inventories,-292.81,-106.47,313,"Changes in Inventories of Finished Goods, Work-in-progress and",matched
+KANSAINER,2022,KANSAINER_FY2022_AR,cost_of_materials_consumed,4318.57,2935.79,313,Cost of Materials Consumed................................................................. 29,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,current_investments,209.46,668.06,312,Investments................................................................................... 10,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,depreciation_amortisation,169.77,165.3,313,Depreciation and Amortisation Expenses.............................................. 33,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,employee_benefits_expense,355.58,304.68,313,Employee Benefits Expense.................................................................. 31,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,equity_attributable_to_owners,4132.22,4052.9,312,Equity attributable to owners of the Company....................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,exceptional_items,0.0,0.0,,,absent_nil
+KANSAINER,2022,KANSAINER_FY2022_AR,finance_costs,28.59,23.74,313,Finance Costs........................................................................................ 32,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,inventories,1629.55,1197.93,312,Inventories........................................................................................... 9,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,net_cash_from_operating_activities,24.77,645.87,315,Net Cash Flows generated from Operating Activities.............................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,non_controlling_interests,19.29,36.28,312,Non-Controlling Interests.................................................................... 17,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,other_bank_balances,28.96,21.59,312,Bank Balances other than Cash and Cash Equivalents................ 13,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,other_expenses,937.11,759.76,313,Other Expenses..................................................................................... 34,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,other_income,25.41,38.21,313,Other Income......................................................................................... 28,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,profit_attributable_to_owners,358.86,529.74,313,Owners of the Company........................................................................,matched_after_profit
+KANSAINER,2022,KANSAINER_FY2022_AR,profit_before_exceptional,476.41,712.45,313,(no exceptional items: equals profit before tax),equals_profit_before_tax
+KANSAINER,2022,KANSAINER_FY2022_AR,profit_before_tax,476.41,712.45,313,Profit Before Tax........................................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,profit_for_the_year,343.15,525.72,313,Profit for the Year.......................................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,purchases_of_stock_in_trade,401.54,317.21,313,Purchases of Stock-in-trade..................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,revenue_from_operations,6369.35,5074.25,313,Revenue from Operations...................................................................... 27,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,share_of_profit_associates_jv,0.0,0.0,,,absent_nil
+KANSAINER,2022,KANSAINER_FY2022_AR,tax_expense,133.26,186.73,313,Total Tax Expense................................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,total_assets,5709.38,5533.35,312,Total Assets.......................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,total_equity,4151.51,4089.18,312,Total Equity.......................................................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,total_equity_and_liabilities,5709.38,5533.35,312,.Total Equity and Liabilities..............................................,matched
+KANSAINER,2022,KANSAINER_FY2022_AR,trade_payables,980.64,906.82,312,Trade payables: MSME dues + other creditors,sum_of_parts
+KANSAINER,2022,KANSAINER_FY2022_AR,trade_receivables,1093.33,956.35,312,Trade Receivables......................................................................... 11,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,borrowings_current,155.3,192.06,322,Borrowings............................................................................... 21,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,borrowings_non_current,4.69,10.94,322,Borrowings............................................................................... 18,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,capital_expenditure,123.17,219.01,325,"Purchase of Property, Plant and Equipment and Other Intangible Assets",matched
+KANSAINER,2023,KANSAINER_FY2023_AR,cash_and_cash_equivalents,104.61,77.04,322,Cash and Cash Equivalents.......................................................... 12,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,change_in_inventories,-94.76,-292.81,323,"Changes in Inventories of Finished Goods, Work-in-progress and",matched
+KANSAINER,2023,KANSAINER_FY2023_AR,cost_of_materials_consumed,4888.68,4318.57,323,Cost of Materials Consumed................................................................. 29,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,current_investments,498.13,209.46,322,Investments................................................................................... 10,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,depreciation_amortisation,180.08,169.77,323,Depreciation and Amortisation Expenses.............................................. 33,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,employee_benefits_expense,377.05,355.58,323,Employee Benefits Expense.................................................................. 31,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,equity_attributable_to_owners,4533.7,4132.22,322,Equity attributable to owners of the Company....................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,exceptional_items,0.0,0.0,,,absent_nil
+KANSAINER,2023,KANSAINER_FY2023_AR,finance_costs,29.0,28.59,323,Finance Costs........................................................................................ 32,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,inventories,1729.13,1629.55,322,Inventories........................................................................................... 9,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,net_cash_from_operating_activities,408.25,24.77,325,Net Cash Flows generated from Operating Activities.............................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,non_controlling_interests,26.71,19.29,322,Non-controlling Interests..................................................................... 17,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,other_bank_balances,22.25,28.96,322,Bank Balances other than Cash and Cash Equivalents................ 13,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,other_expenses,1083.41,937.11,323,Other Expenses..................................................................................... 34,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,other_income,25.98,25.41,323,Other Income......................................................................................... 28,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,profit_attributable_to_owners,473.58,358.86,323,Owners of the Company........................................................................,matched_after_profit
+KANSAINER,2023,KANSAINER_FY2023_AR,profit_before_exceptional,634.89,476.41,323,(no exceptional items: equals profit before tax),equals_profit_before_tax
+KANSAINER,2023,KANSAINER_FY2023_AR,profit_before_tax,634.89,476.41,323,Profit Before Tax........................................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,profit_for_the_year,468.47,343.15,323,Profit for the Year.......................................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,purchases_of_stock_in_trade,470.36,401.54,323,Purchases of Stock-in-trade..................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,revenue_from_operations,7542.73,6369.35,323,Revenue from Operations...................................................................... 27,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,share_of_profit_associates_jv,0.0,0.0,,,absent_nil
+KANSAINER,2023,KANSAINER_FY2023_AR,tax_expense,166.42,133.26,323,Total Tax Expense................................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,total_assets,6306.36,5709.38,322,Total Assets.......................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,total_equity,4560.41,4151.51,322,Total Equity.......................................................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,total_equity_and_liabilities,6306.36,5709.38,322,.Total Equity and Liabilities..............................................,matched
+KANSAINER,2023,KANSAINER_FY2023_AR,trade_payables,1015.55,980.64,322,Trade payables: MSME dues + other creditors,sum_of_parts
+KANSAINER,2023,KANSAINER_FY2023_AR,trade_receivables,1237.91,1093.33,322,Trade Receivables......................................................................... 11,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,borrowings_current,105.7,155.3,322,Borrowings............................................................................... 21,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,borrowings_non_current,15.0,4.69,322,Borrowings............................................................................... 18,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,capital_expenditure,237.0,123.17,325,"Purchase of Property, Plant and Equipment and Other Intangible Assets",matched
+KANSAINER,2024,KANSAINER_FY2024_AR,cash_and_cash_equivalents,172.23,104.61,322,Cash and Cash Equivalents.......................................................... 12,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,change_in_inventories,0.78,-94.76,323,"Changes in Inventories of Finished Goods, Work-in-progress and",matched
+KANSAINER,2024,KANSAINER_FY2024_AR,cost_of_materials_consumed,4556.34,4888.68,323,Cost of Materials Consumed................................................................. 29,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,current_investments,1322.9,498.13,322,Investments................................................................................... 10,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,depreciation_amortisation,190.46,180.08,323,Depreciation and Amortisation Expenses.............................................. 33,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,employee_benefits_expense,448.62,377.05,323,Employee Benefits Expense.................................................................. 31,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,equity_attributable_to_owners,5582.56,4533.7,322,Equity attributable to owners of the Company....................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,exceptional_items,661.25,0.0,323,Exceptional items....................................................................................... 47,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,finance_costs,29.21,29.0,323,Finance Costs........................................................................................ 32,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,inventories,1687.46,1729.13,322,Inventories........................................................................................... 9,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,net_cash_from_operating_activities,903.01,408.25,325,Net Cash Flows generated from Operating Activities.............................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,non_controlling_interests,16.04,26.71,322,Non-controlling Interests..................................................................... 17,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,other_bank_balances,87.72,22.25,322,Bank Balances other than Cash and Cash Equivalents................ 13,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,other_expenses,1280.96,1083.41,323,Other Expenses..................................................................................... 34,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,other_income,91.88,25.98,323,Other Income......................................................................................... 28,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,profit_attributable_to_owners,1185.44,473.58,323,Owners of the Company........................................................................,matched_after_profit
+KANSAINER,2024,KANSAINER_FY2024_AR,profit_before_exceptional,899.96,634.89,323,Profit Before Exceptional Items and Tax ................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,profit_before_tax,1561.21,634.89,323,Profit Before Tax........................................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,profit_for_the_year,1175.86,468.47,323,Profit for the Year.......................................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,purchases_of_stock_in_trade,486.99,470.36,323,Purchases of Stock-in-trade..................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,revenue_from_operations,7801.44,7542.73,323,Revenue from Operations...................................................................... 27,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,share_of_profit_associates_jv,0.0,0.0,,,absent_nil
+KANSAINER,2024,KANSAINER_FY2024_AR,tax_expense,385.35,166.42,323,Total Tax Expense................................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,total_assets,7409.72,6306.36,322,Total Assets.......................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,total_equity,5598.6,4560.41,322,Total Equity.......................................................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,total_equity_and_liabilities,7409.72,6306.36,322,.Total Equity and Liabilities..............................................,matched
+KANSAINER,2024,KANSAINER_FY2024_AR,trade_payables,1095.58,1015.55,322,Trade payables: MSME dues + other creditors,sum_of_parts
+KANSAINER,2024,KANSAINER_FY2024_AR,trade_receivables,1334.88,1237.91,322,Trade Receivables......................................................................... 11,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,borrowings_current,87.82,105.7,340,Borrowings............................................................................... 21,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,borrowings_non_current,30.0,15.0,340,Borrowings............................................................................... 18,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,capital_expenditure,326.3,237.0,343,"Purchase of Property, Plant and Equipment and Other Intangible Assets",matched
+KANSAINER,2025,KANSAINER_FY2025_AR,cash_and_cash_equivalents,94.0,172.23,340,Cash and Cash Equivalents.......................................................... 12,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,change_in_inventories,8.8,0.78,341,"Changes in Inventories of Finished Goods, Work-in-progress and",matched
+KANSAINER,2025,KANSAINER_FY2025_AR,cost_of_materials_consumed,4572.15,4556.34,341,Cost of Materials Consumed................................................................. 29,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,current_investments,1845.98,1322.9,340,Investments................................................................................... 10,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,depreciation_amortisation,201.7,190.46,341,Depreciation and Amortisation Expenses.............................................. 33,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,employee_benefits_expense,501.89,448.62,341,Employee Benefits Expense.................................................................. 31,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,equity_attributable_to_owners,6423.16,5582.56,340,Equity attributable to owners of the Company....................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,exceptional_items,629.51,661.25,341,Exceptional items....................................................................................... 48,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,finance_costs,31.25,29.21,341,Finance Costs........................................................................................ 32,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,inventories,1665.07,1687.46,340,Inventories........................................................................................... 9,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,net_cash_from_operating_activities,672.36,903.01,343,Net Cash Flows generated from Operating Activities.............................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,non_controlling_interests,-18.7,16.04,340,Non-Controlling Interests.................................................................... 17,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,other_bank_balances,196.06,87.72,340,Bank Balances other than Cash and Cash Equivalents................ 13,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,other_expenses,1309.44,1280.96,341,Other Expenses..................................................................................... 34,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,other_income,139.15,91.88,341,Other Income......................................................................................... 28,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,profit_attributable_to_owners,1142.95,1185.44,341,Owners of the Company........................................................................,matched_after_profit
+KANSAINER,2025,KANSAINER_FY2025_AR,profit_before_exceptional,848.52,899.96,341,Profit Before Exceptional Items and Tax ................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,profit_before_tax,1478.03,1561.21,341,Profit Before Tax........................................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,profit_for_the_year,1109.33,1175.86,341,Profit for the Year.......................................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,purchases_of_stock_in_trade,488.37,486.99,341,Purchases of Stock-in-trade..................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,revenue_from_operations,7822.97,7801.44,341,Revenue from Operations...................................................................... 27,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,share_of_profit_associates_jv,0.0,0.0,,,absent_nil
+KANSAINER,2025,KANSAINER_FY2025_AR,tax_expense,368.7,385.35,341,Total Tax Expense................................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,total_assets,8217.03,7409.72,340,Total Assets.......................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,total_equity,6404.46,5598.6,340,Total Equity.......................................................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,total_equity_and_liabilities,8217.03,7409.72,340,.Total Equity and Liabilities..............................................,matched
+KANSAINER,2025,KANSAINER_FY2025_AR,trade_payables,1100.75,1051.73,340,Trade payables: MSME dues + other creditors,sum_of_parts
+KANSAINER,2025,KANSAINER_FY2025_AR,trade_receivables,1356.7,1334.88,340,Trade Receivables......................................................................... 11,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,borrowings_current,74.0,87.82,340,Borrowings.................................................................................... 21,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,borrowings_non_current,8.68,30.0,340,Borrowings................................................................................ 18,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,capital_expenditure,213.12,326.3,343,"Purchase of Property, Plant and Equipment and Other Intangible Assets",matched
+KANSAINER,2026,KANSAINER_FY2026_AR,cash_and_cash_equivalents,196.79,94.0,340,Cash and Cash Equivalents.......................................................... 12,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,change_in_inventories,106.72,8.8,341,"Changes in Inventories of Finished Goods, Work-in-progress and 30",matched
+KANSAINER,2026,KANSAINER_FY2026_AR,cost_of_materials_consumed,4581.64,4572.15,341,Cost of Materials Consumed....................................................................... 29,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,current_investments,2361.43,1845.98,340,Investments................................................................................... 10,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,depreciation_amortisation,228.12,201.7,341,Depreciation and Amortisation Expenses ................................................... 33,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,employee_benefits_expense,542.14,501.89,341,Employee Benefits Expense ....................................................................... 31,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,equity_attributable_to_owners,6713.78,6423.16,340,Equity attributable to owners of the Company,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,exceptional_items,-63.15,629.51,341,Exceptional Items.............................................................................................. 47,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,finance_costs,32.29,31.25,341,Finance Costs.............................................................................................. 32,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,inventories,1530.17,1665.07,340,Inventories............................................................................................ 9,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,net_cash_from_operating_activities,894.37,672.36,343,Net Cash Flows generated from Operating Activities.............................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,non_controlling_interests,-24.93,-18.7,340,Non-Controlling Interests 17,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,other_bank_balances,28.99,196.06,340,Bank Balances other than Cash and Cash Equivalents................ 13,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,other_expenses,1338.57,1309.44,341,Other Expenses........................................................................................... 34,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,other_income,145.94,139.15,341,Other Income .............................................................................................. 28,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,profit_attributable_to_owners,589.47,1142.95,341,Owners of the Company...................................................................................,matched_after_profit
+KANSAINER,2026,KANSAINER_FY2026_AR,profit_before_exceptional,860.13,848.52,341,Profit Before Exceptional Items and Tax........................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,profit_before_tax,796.98,1478.03,341,Profit Before Tax...............................................................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,profit_for_the_year,575.84,1109.33,341,Profit for the Year .............................................................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,purchases_of_stock_in_trade,508.24,488.37,341,Purchases of Stock-in-trade........................................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,revenue_from_operations,8051.91,7822.97,341,Revenue from Operations............................................................................ 27,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,share_of_profit_associates_jv,0.0,0.0,,,absent_nil
+KANSAINER,2026,KANSAINER_FY2026_AR,tax_expense,221.14,368.7,341,Total Tax Expense .....................................................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,total_assets,8711.11,8217.03,340,Total Assets,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,total_equity,6688.85,6404.46,340,Total Equity..................................................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,total_equity_and_liabilities,8711.11,8217.03,340,Total Equity and Liabilities.....................................................,matched
+KANSAINER,2026,KANSAINER_FY2026_AR,trade_payables,1164.66,1100.75,340,Trade payables: MSME dues + other creditors,sum_of_parts
+KANSAINER,2026,KANSAINER_FY2026_AR,trade_receivables,1467.36,1356.7,340,Trade Receivables........................................................................ 11,matched

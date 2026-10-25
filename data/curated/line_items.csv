@@ -10,12 +10,14 @@ depreciation_amortisation,PL,Depreciation and amortisation expense,Depreciation 
 other_expenses,PL,Other expenses,"All remaining operating expenses (freight, advertising, power, etc.).",Positive = expense
 share_of_profit_associates_jv,PL,Share of profit/(loss) of associates and joint ventures,Group's share of profit of entities it does not fully control.,Positive = profit; negative = loss
 exceptional_items,PL,Exceptional items,"One-off items reported separately (e.g. gain on sale of land, impairment).",Positive = gain; negative = loss (effect on profit)
+profit_before_exceptional,PL,Profit before exceptional items and tax,Profit before tax excluding exceptional items. Equals profit before tax when there are none.,Positive = profit
 profit_before_tax,PL,Profit before tax,Profit after exceptional items and share of associates/JVs and before tax.,Positive = profit
 tax_expense,PL,Total tax expense,Current tax plus deferred tax (and prior-year tax adjustments).,Positive = expense
 profit_for_the_year,PL,Profit for the year,Profit after tax for the whole group.,Positive = profit
 profit_attributable_to_owners,PL,Profit attributable to owners of the parent,Profit for the year less the share belonging to non-controlling interests.,Positive = profit
 total_equity,BS,Total equity,Equity attributable to owners plus non-controlling interests.,Positive
 equity_attributable_to_owners,BS,Equity attributable to owners of the parent,Share capital plus other equity belonging to the parent's shareholders.,Positive
+non_controlling_interests,BS,Non-controlling interests,Share of subsidiaries' equity belonging to outside shareholders.,Positive (can be negative if subsidiaries have accumulated losses)
 borrowings_non_current,BS,Non-current borrowings,"Long-term borrowings, excluding lease liabilities.",Positive
 borrowings_current,BS,Current borrowings,"Short-term borrowings including current maturities of long-term debt, excluding lease liabilities.",Positive
 cash_and_cash_equivalents,BS,Cash and cash equivalents,Cash and deposits with original maturity of three months or less.,Positive

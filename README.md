@@ -7,12 +7,17 @@ FinSight combines:
 2. **Cited answers.** Questions about the annual reports are answered only from retrieved passages, with document and page references. It says so when the evidence isn't there.
 3. **Analyst briefs.** Every number comes from the database. The AI writes only the cited commentary.
 
-> **Status:** in development. Milestone 1 of 10 is complete: all 15 source reports are registered and verified, and all 45 financial-statement pages are located and checked.
+> **Status:** in development. Milestones 1–2 of 10 are complete:
+> - 15 source reports verified, and 558 financial figures (3 companies × FY2021–26 × 31 line items) collected with page references.
+> - Every figure passes 90 accounting-identity checks, 372 cross-report comparisons (2 restatements, both explained) and 54 second-source comparisons.
+>
 > Full design: [PROJECT_NOTES.md](PROJECT_NOTES.md).
 
 ## Data sources
 
 Official annual reports filed with BSE, FY2022–FY2026 (15 PDFs). The register with links, page counts, file fingerprints and statement page numbers is in [`data/curated/documents.csv`](data/curated/documents.csv).
+
+The financial dataset is [`data/curated/reported_values.csv`](data/curated/reported_values.csv): one row per company, year and line item, with the source document, PDF page and wording as printed. The latest data checks are in [`eval/data_validation.md`](eval/data_validation.md).
 
 ## Setup (so far)
 
@@ -28,6 +33,8 @@ Download the PDFs as described in [`data/reports/README.md`](data/reports/README
 
 ```bash
 python scripts/check_documents.py   # expect: 15/15 documents passed; 45/45 statement pages verified
+python scripts/build_dataset.py     # re-reads the statements and rebuilds the dataset
+python scripts/validate_data.py     # expect: 0 FAIL
 pytest                              # expect: all tests pass
 ```
 
@@ -36,7 +43,8 @@ pytest                              # expect: all tests pass
 | Milestone | Status |
 |---|---|
 | 1. Setup, companies, sources | ✅ Done |
-| 2. Curated dataset + validation | Next |
-| 3–10. Metrics, SQL, retrieval, app, brief, evaluation | Planned |
+| 2. Curated dataset + validation | ✅ Done (hand spot check pending) |
+| 3. Financial metrics in Python | Next |
+| 4–10. SQL, retrieval, app, brief, evaluation | Planned |
 
 Limitations, results and the case study will be documented here as each milestone is verified.

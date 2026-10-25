@@ -1,0 +1,11 @@
+company_id,fiscal_year,item_code,note,source_document_id,source_page
+ASIANPAINT,2022,exceptional_items,"Loss of 115.70: expected credit loss on state subsidy receivable 53.73; Sri Lanka currency devaluation 48.50; goodwill impairment in Causeway Paints 13.47 (Note 39).",ASIANPAINT_FY2022_AR,185
+ASIANPAINT,2023,exceptional_items,"Loss of 48.87: Sri Lanka currency devaluation 24.21; goodwill impairment in Causeway Paints 24.66 (Note 41).",ASIANPAINT_FY2023_AR,234
+ASIANPAINT,2025,exceptional_items,"Loss of 363.10: Ethiopian currency devaluation 56.14; goodwill impairment in Causeway Paints 21.47; goodwill and intangibles impairment in Obgenix Software 201.78; loss on disposal of Indonesian subsidiaries 83.71 (Note 39).",ASIANPAINT_FY2025_AR,270
+ASIANPAINT,2026,exceptional_items,"Loss of 157.61: impairment of intangibles in Obgenix Software 93.87; impact of the new Labour Codes notified 21 Nov 2025: 63.74 (Note 40).",ASIANPAINT_FY2026_AR,282
+BERGEPAINT,2026,exceptional_items,Loss of 53.29: incremental impact of the new Labour Codes.,BERGEPAINT_FY2026_AR,235
+KANSAINER,2024,exceptional_items,"Gain of 661.25: profit on sale of land at Kavesar, Thane for a total consideration of 671.00 (Note 46).",KANSAINER_FY2024_AR,373
+KANSAINER,2025,exceptional_items,"Net gain of 629.51: profit on sale of investment property at Lower Parel, Mumbai 665.44; less impairment of goodwill and other assets in Kansai Paints Lanka 13.24 and Kansai Nerolac Paints (Bangladesh) 22.69 (Note 48).",KANSAINER_FY2025_AR,392
+KANSAINER,2026,exceptional_items,"Net loss of 63.15: additional employee benefit cost from the Wage Code 44.72; loss from fire at Ghaziabad warehouse 12.67; impairment of goodwill and other assets in overseas subsidiaries (Note 47).",KANSAINER_FY2026_AR,395
+BERGEPAINT,2023,net_cash_from_operating_activities,"Restated: 975.97 in the FY2023 report, 975.57 as the comparative in the FY2024 report (operating profit before working capital changes 1,543.18 -> 1,542.78). We keep the originally reported 975.97.",BERGEPAINT_FY2024_AR,211
+KANSAINER,2024,trade_payables,"Restated: 1,095.58 in the FY2024 report, 1,051.73 as the comparative in the FY2025 report. 43.85 was reclassified to other financial liabilities (total current liabilities unchanged at 1,520.56). We keep the originally reported 1,095.58.",KANSAINER_FY2025_AR,340
