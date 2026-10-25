@@ -1,0 +1,5 @@
+# Pinned so everyone installs exactly the same versions.
+# Libraries are added here only when a milestone actually uses them.
+pandas==3.0.5      # tables and CSV files
+pymupdf==2.0       # reading text from PDF pages
+pytest==9.1.1      # running the tests

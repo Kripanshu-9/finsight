@@ -1,0 +1,22 @@
+# Secrets: never commit the real API key
+.env
+
+# Annual report PDFs are large and are the companies' copyright; download them instead
+data/reports/*.pdf
+
+# Rebuilt by scripts
+data/processed/*
+!data/processed/.gitkeep
+
+# Python and tool clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
