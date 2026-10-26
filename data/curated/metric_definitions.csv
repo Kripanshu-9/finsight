@@ -1,0 +1,24 @@
+metric_code,name,category,formula,unit,basis,why_it_matters
+revenue_growth,Revenue growth,Growth,Revenue(t) / Revenue(t-1) - 1,percent,reported,How fast sales are growing; the first sign of market share gains or losses.
+ebitda_growth,EBITDA growth,Growth,EBITDA(t) / EBITDA(t-1) - 1,percent,underlying,Whether operating profit grows faster or slower than sales.
+pat_growth,Net profit growth (reported),Growth,Profit for the year(t) / Profit for the year(t-1) - 1,percent,reported,Growth in the bottom line as reported; distorted in years with exceptional items.
+underlying_pbt_growth,Underlying profit growth,Growth,Profit before exceptional items and tax(t) / same(t-1) - 1,percent,underlying,Profit growth with one-off gains and losses removed.
+gross_margin,Gross margin,Profitability,(Revenue - materials - stock purchases - change in inventories) / Revenue,percent,underlying,"Share of sales left after raw material costs; paint inputs are crude-oil linked, so this shows cost pressure and pricing power."
+ebitda,EBITDA,Profitability,Revenue - materials - stock purchases - change in inventories - employee costs - other expenses,INR crore,underlying,"Operating profit before depreciation, interest, tax, other income and one-offs."
+ebitda_margin,EBITDA margin,Profitability,EBITDA / Revenue,percent,underlying,The core measure of operating efficiency; the main way analysts compare paint companies.
+pat_margin,Net profit margin (reported),Profitability,Profit for the year / Revenue,percent,reported,Bottom-line profitability as reported; includes exceptional items and other income.
+underlying_pbt_margin,Underlying profit margin,Profitability,Profit before exceptional items and tax / Revenue,percent,underlying,Pre-tax profitability without one-offs; comparable across companies and years.
+roe,Return on equity (reported),Returns,Profit attributable to owners / average equity attributable to owners (start and end of year),percent,reported,Profit earned for shareholders on the money they have in the business.
+roce,Return on capital employed,Returns,(Profit before exceptional items and tax + finance costs) / average (total equity + borrowings),percent,underlying,Profit on all long-term capital (equity and debt); includes treasury income from cash held.
+total_debt,Total borrowings,Balance sheet,Non-current borrowings + current borrowings (excluding lease liabilities),INR crore,reported,How much the company owes lenders.
+cash_and_investments,Cash and liquid investments,Balance sheet,Cash and cash equivalents + other bank balances + current investments,INR crore,reported,Money available quickly.
+net_cash,Net cash (negative = net debt),Balance sheet,Cash and liquid investments - total borrowings,INR crore,reported,"Positive means more cash than debt; a cushion for price wars, capex or dividends."
+debt_to_equity,Debt to equity,Balance sheet,Total borrowings / total equity,times,reported,Leverage; low for all three companies.
+free_cash_flow,Free cash flow,Cash flow,Net cash from operating activities - capital expenditure,INR crore,reported,Cash left after investing in the business; funds dividends and acquisitions.
+capex_to_revenue,Capex intensity,Cash flow,Capital expenditure / Revenue,percent,reported,How heavily the company is investing in capacity.
+cash_conversion_pat,Cash conversion (OCF / net profit),Cash flow,Net cash from operating activities / Profit for the year,times,reported,"Do reported profits turn into cash? Below 1 can mean cash stuck in working capital; distorted when profit includes one-off gains."
+cash_conversion_ebitda,Cash conversion (OCF / EBITDA),Cash flow,Net cash from operating activities / EBITDA,times,underlying,"Same question, before tax and one-offs, so comparable across years and companies (tax paid keeps it below 1)."
+receivable_days,Receivable days,Working capital,Trade receivables / Revenue x 365 (year-end balance),days,reported,How long dealers take to pay; longer credit is a way to win dealers.
+inventory_days,Inventory days,Working capital,Inventories / cost of goods sold x 365 (year-end balance),days,reported,How long stock sits before being sold. Cost of goods sold = materials + stock purchases + change in inventories.
+payable_days,Payable days,Working capital,Trade payables / cost of goods sold x 365 (year-end balance),days,reported,How long the company takes to pay suppliers.
+cash_conversion_cycle,Cash conversion cycle,Working capital,Receivable days + inventory days - payable days,days,reported,Days of sales tied up in working capital; lower is better.

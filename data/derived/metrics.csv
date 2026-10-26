@@ -1,0 +1,415 @@
+company_id,fiscal_year,metric_code,value,null_reason,flag,name,unit,basis
+ASIANPAINT,2021,revenue_growth,,"needs the previous year, which is not in the dataset",,Revenue growth,percent,reported
+ASIANPAINT,2021,ebitda_growth,,"needs the previous year, which is not in the dataset",,EBITDA growth,percent,underlying
+ASIANPAINT,2021,pat_growth,,"needs the previous year, which is not in the dataset",,Net profit growth (reported),percent,reported
+ASIANPAINT,2021,underlying_pbt_growth,,"needs the previous year, which is not in the dataset",,Underlying profit growth,percent,underlying
+ASIANPAINT,2021,gross_margin,0.4428523464741289,,,Gross margin,percent,underlying
+ASIANPAINT,2021,ebitda,4855.600000000001,,,EBITDA,INR crore,underlying
+ASIANPAINT,2021,ebitda_margin,0.22362856178317025,,,EBITDA margin,percent,underlying
+ASIANPAINT,2021,pat_margin,0.1476894493982579,,,Net profit margin (reported),percent,reported
+ASIANPAINT,2021,underlying_pbt_margin,0.1982402998417062,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2021,roe,,"needs the previous year, which is not in the dataset",,Return on equity (reported),percent,reported
+ASIANPAINT,2021,roce,,"needs the previous year, which is not in the dataset",,Return on capital employed,percent,underlying
+ASIANPAINT,2021,total_debt,348.58,,,Total borrowings,INR crore,reported
+ASIANPAINT,2021,cash_and_investments,3877.87,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2021,net_cash,3529.29,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2021,debt_to_equity,0.026349387526787435,,,Debt to equity,times,reported
+ASIANPAINT,2021,free_cash_flow,3401.48,,,Free cash flow,INR crore,reported
+ASIANPAINT,2021,capex_to_revenue,0.01298174946655865,,,Capex intensity,percent,reported
+ASIANPAINT,2021,cash_conversion_pat,1.1486239962578935,,,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2021,cash_conversion_ebitda,0.7585777246890186,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2021,receivable_days,43.74343647223595,,,Receivable days,days,reported
+ASIANPAINT,2021,inventory_days,114.61210541586793,,,Inventory days,days,reported
+ASIANPAINT,2021,payable_days,101.94340357255338,,,Payable days,days,reported
+ASIANPAINT,2021,cash_conversion_cycle,56.41213831555051,,,Cash conversion cycle,days,reported
+ASIANPAINT,2022,revenue_growth,0.3402828471145347,,,Revenue growth,percent,reported
+ASIANPAINT,2022,ebitda_growth,-0.010707224647829805,,,EBITDA growth,percent,underlying
+ASIANPAINT,2022,pat_growth,-0.038026038824354846,,this year includes exceptional items of -115.70 cr,Net profit growth (reported),percent,reported
+ASIANPAINT,2022,underlying_pbt_growth,-0.0002160604969392299,,,Underlying profit growth,percent,underlying
+ASIANPAINT,2022,gross_margin,0.3711359087985133,,,Gross margin,percent,underlying
+ASIANPAINT,2022,ebitda,4803.609999999999,,,EBITDA,INR crore,underlying
+ASIANPAINT,2022,ebitda_margin,0.16506524798909186,,,EBITDA margin,percent,underlying
+ASIANPAINT,2022,pat_margin,0.1060025538395562,,this year includes exceptional items of -115.70 cr,Net profit margin (reported),percent,reported
+ASIANPAINT,2022,underlying_pbt_margin,0.14787734422678317,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2022,roe,0.22770960088812586,,this year includes exceptional items of -115.70 cr,Return on equity (reported),percent,reported
+ASIANPAINT,2022,roce,0.30812244680672224,,,Return on capital employed,percent,underlying
+ASIANPAINT,2022,total_debt,775.66,,,Total borrowings,INR crore,reported
+ASIANPAINT,2022,cash_and_investments,3045.0299999999997,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2022,net_cash,2269.37,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2022,debt_to_equity,0.054627444434819414,,,Debt to equity,times,reported
+ASIANPAINT,2022,free_cash_flow,448.25,,,Free cash flow,INR crore,reported
+ASIANPAINT,2022,capex_to_revenue,0.018495406387622815,,,Capex intensity,percent,reported
+ASIANPAINT,2022,cash_conversion_pat,0.31978954943740456,,this year includes exceptional items of -115.70 cr,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2022,cash_conversion_ebitda,0.20536429893351046,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2022,receivable_days,48.557163121347244,,,Receivable days,days,reported
+ASIANPAINT,2022,inventory_days,122.71834214444762,,,Inventory days,days,reported
+ASIANPAINT,2022,payable_days,83.05503872792099,,,Payable days,days,reported
+ASIANPAINT,2022,cash_conversion_cycle,88.22046653787388,,,Cash conversion cycle,days,reported
+ASIANPAINT,2023,revenue_growth,0.1851227849771555,,,Revenue growth,percent,reported
+ASIANPAINT,2023,ebitda_growth,0.30315325349060274,,,EBITDA growth,percent,underlying
+ASIANPAINT,2023,pat_growth,0.35999623963874594,,this year includes exceptional items of -48.87 cr; previous year includes exceptional items of -115.70 cr,Net profit growth (reported),percent,reported
+ASIANPAINT,2023,underlying_pbt_growth,0.33328840782447444,,,Underlying profit growth,percent,underlying
+ASIANPAINT,2023,gross_margin,0.38656523795260966,,,Gross margin,percent,underlying
+ASIANPAINT,2023,ebitda,6259.839999999993,,,EBITDA,INR crore,underlying
+ASIANPAINT,2023,ebitda_margin,0.1815046657459755,,,EBITDA margin,percent,underlying
+ASIANPAINT,2023,pat_margin,0.12164399878336575,,this year includes exceptional items of -48.87 cr,Net profit margin (reported),percent,reported
+ASIANPAINT,2023,underlying_pbt_margin,0.16636516598678,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2023,roe,0.2755656243719339,,this year includes exceptional items of -48.87 cr,Return on equity (reported),percent,reported
+ASIANPAINT,2023,roce,0.3631758242945588,,,Return on capital employed,percent,underlying
+ASIANPAINT,2023,total_debt,972.2099999999999,,,Total borrowings,INR crore,reported
+ASIANPAINT,2023,cash_and_investments,3540.82,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2023,net_cash,2568.61,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2023,debt_to_equity,0.05911568179040477,,,Debt to equity,times,reported
+ASIANPAINT,2023,free_cash_flow,2920.0600000000004,,,Free cash flow,INR crore,reported
+ASIANPAINT,2023,capex_to_revenue,0.036921486207467456,,,Capex intensity,percent,reported
+ASIANPAINT,2023,cash_conversion_pat,0.9995471154831683,,this year includes exceptional items of -48.87 cr,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2023,cash_conversion_ebitda,0.6698941186995203,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2023,receivable_days,49.07371104472523,,,Receivable days,days,reported
+ASIANPAINT,2023,inventory_days,107.1483279370406,,,Inventory days,days,reported
+ASIANPAINT,2023,payable_days,62.71999621865619,,,Payable days,days,reported
+ASIANPAINT,2023,cash_conversion_cycle,93.50204276310963,,,Cash conversion cycle,days,reported
+ASIANPAINT,2024,revenue_growth,0.029173126532572313,,,Revenue growth,percent,reported
+ASIANPAINT,2024,ebitda_growth,0.21168911665474077,,,EBITDA growth,percent,underlying
+ASIANPAINT,2024,pat_growth,0.3247325001847292,,previous year includes exceptional items of -48.87 cr,Net profit growth (reported),percent,reported
+ASIANPAINT,2024,underlying_pbt_growth,0.28061244052494905,,,Underlying profit growth,percent,underlying
+ASIANPAINT,2024,gross_margin,0.43399456764426725,,,Gross margin,percent,underlying
+ASIANPAINT,2024,ebitda,7584.980000000004,,,EBITDA,INR crore,underlying
+ASIANPAINT,2024,ebitda_margin,0.21369313134654083,,,EBITDA margin,percent,underlying
+ASIANPAINT,2024,pat_margin,0.1565778919856553,,,Net profit margin (reported),percent,reported
+ASIANPAINT,2024,underlying_pbt_margin,0.20701016742485434,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2024,roe,0.3145245766697686,,,Return on equity (reported),percent,reported
+ASIANPAINT,2024,roce,0.3980582319602245,,,Return on capital employed,percent,underlying
+ASIANPAINT,2024,total_debt,1107.14,,,Total borrowings,INR crore,reported
+ASIANPAINT,2024,cash_and_investments,4287.42,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2024,net_cash,3180.2799999999997,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2024,debt_to_equity,0.056999497520552236,,,Debt to equity,times,reported
+ASIANPAINT,2024,free_cash_flow,3904.59,,,Free cash flow,INR crore,reported
+ASIANPAINT,2024,capex_to_revenue,0.0619531406493302,,,Capex intensity,percent,reported
+ASIANPAINT,2024,cash_conversion_pat,1.0982260615471537,,,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2024,cash_conversion_ebitda,0.8046955957695336,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2024,receivable_days,50.27516056608967,,,Receivable days,days,reported
+ASIANPAINT,2024,inventory_days,107.6168268027064,,,Inventory days,days,reported
+ASIANPAINT,2024,payable_days,69.6079881693621,,,Payable days,days,reported
+ASIANPAINT,2024,cash_conversion_cycle,88.28399919943396,,,Cash conversion cycle,days,reported
+ASIANPAINT,2025,revenue_growth,-0.04477030815560512,,,Revenue growth,percent,reported
+ASIANPAINT,2025,ebitda_growth,-0.20814425351154497,,,EBITDA growth,percent,underlying
+ASIANPAINT,2025,pat_growth,-0.33250865017660214,,this year includes exceptional items of -363.10 cr,Net profit growth (reported),percent,reported
+ASIANPAINT,2025,underlying_pbt_growth,-0.256077694320862,,,Underlying profit growth,percent,underlying
+ASIANPAINT,2025,gross_margin,0.4244086968473074,,,Gross margin,percent,underlying
+ASIANPAINT,2025,ebitda,6006.210000000005,,,EBITDA,INR crore,underlying
+ASIANPAINT,2025,ebitda_margin,0.17714496888716397,,,EBITDA margin,percent,underlying
+ASIANPAINT,2025,pat_margin,0.10941283480437755,,this year includes exceptional items of -363.10 cr,Net profit margin (reported),percent,reported
+ASIANPAINT,2025,underlying_pbt_margin,0.16121722593481552,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2025,roe,0.19236358686543864,,this year includes exceptional items of -363.10 cr,Return on equity (reported),percent,reported
+ASIANPAINT,2025,roce,0.27467757942490917,,,Return on capital employed,percent,underlying
+ASIANPAINT,2025,total_debt,863.75,,,Total borrowings,INR crore,reported
+ASIANPAINT,2025,cash_and_investments,4026.94,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2025,net_cash,3163.19,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2025,debt_to_equity,0.0430603642744796,,,Debt to equity,times,reported
+ASIANPAINT,2025,free_cash_flow,2618.6400000000003,,,Free cash flow,INR crore,reported
+ASIANPAINT,2025,capex_to_revenue,0.05324545016430904,,,Capex intensity,percent,reported
+ASIANPAINT,2025,cash_conversion_pat,1.1925352655598416,,this year includes exceptional items of -363.10 cr,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2025,cash_conversion_ebitda,0.7365643225927826,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2025,receivable_days,46.43720569038406,,,Receivable days,days,reported
+ASIANPAINT,2025,inventory_days,125.66925585346833,,,Inventory days,days,reported
+ASIANPAINT,2025,payable_days,71.96842760063907,,,Payable days,days,reported
+ASIANPAINT,2025,cash_conversion_cycle,100.13803394321332,,,Cash conversion cycle,days,reported
+ASIANPAINT,2026,revenue_growth,0.04948796099289732,,,Revenue growth,percent,reported
+ASIANPAINT,2026,ebitda_growth,0.11483281470344808,,,EBITDA growth,percent,underlying
+ASIANPAINT,2026,pat_growth,0.1846451609424995,,this year includes exceptional items of -157.61 cr; previous year includes exceptional items of -363.10 cr,Net profit growth (reported),percent,reported
+ASIANPAINT,2026,underlying_pbt_growth,0.12712374477925126,,,Underlying profit growth,percent,underlying
+ASIANPAINT,2026,gross_margin,0.4378923513512147,,,Gross margin,percent,underlying
+ASIANPAINT,2026,ebitda,6695.920000000002,,,EBITDA,INR crore,underlying
+ASIANPAINT,2026,ebitda_margin,0.18817464479363216,,,EBITDA margin,percent,underlying
+ASIANPAINT,2026,pat_margin,0.1235034513148495,,this year includes exceptional items of -157.61 cr,Net profit margin (reported),percent,reported
+ASIANPAINT,2026,underlying_pbt_margin,0.17314325668553493,,,Underlying profit margin,percent,underlying
+ASIANPAINT,2026,roe,0.2121756917839466,,this year includes exceptional items of -157.61 cr,Return on equity (reported),percent,reported
+ASIANPAINT,2026,roce,0.28106627661004485,,,Return on capital employed,percent,underlying
+ASIANPAINT,2026,total_debt,2293.26,,,Total borrowings,INR crore,reported
+ASIANPAINT,2026,cash_and_investments,7359.51,,,Cash and liquid investments,INR crore,reported
+ASIANPAINT,2026,net_cash,5066.25,,,Net cash (negative = net debt),INR crore,reported
+ASIANPAINT,2026,debt_to_equity,0.10416816186069669,,,Debt to equity,times,reported
+ASIANPAINT,2026,free_cash_flow,5621.16,,,Free cash flow,INR crore,reported
+ASIANPAINT,2026,capex_to_revenue,0.04122748888952588,,,Capex intensity,percent,reported
+ASIANPAINT,2026,cash_conversion_pat,1.612896472788752,,this year includes exceptional items of -157.61 cr,Cash conversion (OCF / net profit),times,reported
+ASIANPAINT,2026,cash_conversion_ebitda,1.058581942436588,,,Cash conversion (OCF / EBITDA),times,underlying
+ASIANPAINT,2026,receivable_days,45.76714402220802,,,Receivable days,days,reported
+ASIANPAINT,2026,inventory_days,104.81301414174139,,,Inventory days,days,reported
+ASIANPAINT,2026,payable_days,70.4942060156646,,,Payable days,days,reported
+ASIANPAINT,2026,cash_conversion_cycle,80.08595214828482,,,Cash conversion cycle,days,reported
+BERGEPAINT,2021,revenue_growth,,"needs the previous year, which is not in the dataset",,Revenue growth,percent,reported
+BERGEPAINT,2021,ebitda_growth,,"needs the previous year, which is not in the dataset",,EBITDA growth,percent,underlying
+BERGEPAINT,2021,pat_growth,,"needs the previous year, which is not in the dataset",,Net profit growth (reported),percent,reported
+BERGEPAINT,2021,underlying_pbt_growth,,"needs the previous year, which is not in the dataset",,Underlying profit growth,percent,underlying
+BERGEPAINT,2021,gross_margin,0.43256194637694556,,,Gross margin,percent,underlying
+BERGEPAINT,2021,ebitda,1187.9800000000002,,,EBITDA,INR crore,underlying
+BERGEPAINT,2021,ebitda_margin,0.1742521917569112,,,EBITDA margin,percent,underlying
+BERGEPAINT,2021,pat_margin,0.10556809664412205,,,Net profit margin (reported),percent,reported
+BERGEPAINT,2021,underlying_pbt_margin,0.14354339289983703,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2021,roe,,"needs the previous year, which is not in the dataset",,Return on equity (reported),percent,reported
+BERGEPAINT,2021,roce,,"needs the previous year, which is not in the dataset",,Return on capital employed,percent,underlying
+BERGEPAINT,2021,total_debt,375.57,,,Total borrowings,INR crore,reported
+BERGEPAINT,2021,cash_and_investments,649.39,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2021,net_cash,273.82,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2021,debt_to_equity,0.11098633836988354,,,Debt to equity,times,reported
+BERGEPAINT,2021,free_cash_flow,609.67,,,Free cash flow,INR crore,reported
+BERGEPAINT,2021,capex_to_revenue,0.02729556925541137,,,Capex intensity,percent,reported
+BERGEPAINT,2021,cash_conversion_pat,1.10565219807703,,,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2021,cash_conversion_ebitda,0.6698429266485967,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2021,receivable_days,54.593749404114945,,,Receivable days,days,reported
+BERGEPAINT,2021,inventory_days,152.482435324772,,,Inventory days,days,reported
+BERGEPAINT,2021,payable_days,141.28399197634263,,,Payable days,days,reported
+BERGEPAINT,2021,cash_conversion_cycle,65.79219275254434,,,Cash conversion cycle,days,reported
+BERGEPAINT,2022,revenue_growth,0.28517261965005236,,,Revenue growth,percent,reported
+BERGEPAINT,2022,ebitda_growth,0.12044815569285672,,,EBITDA growth,percent,underlying
+BERGEPAINT,2022,pat_growth,0.15732507086089043,,,Net profit growth (reported),percent,reported
+BERGEPAINT,2022,underlying_pbt_growth,0.14680877153542737,,,Underlying profit growth,percent,underlying
+BERGEPAINT,2022,gross_margin,0.38036905742896987,,,Gross margin,percent,underlying
+BERGEPAINT,2022,ebitda,1331.0700000000002,,,EBITDA,INR crore,underlying
+BERGEPAINT,2022,ebitda_margin,0.15191776100290125,,,EBITDA margin,percent,underlying
+BERGEPAINT,2022,pat_margin,0.09506629931360978,,,Net profit margin (reported),percent,reported
+BERGEPAINT,2022,underlying_pbt_margin,0.12808926953199007,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2022,roe,0.22804927805297476,,,Return on equity (reported),percent,reported
+BERGEPAINT,2022,roce,0.28057103971852243,,,Return on capital employed,percent,underlying
+BERGEPAINT,2022,total_debt,667.9300000000001,,,Total borrowings,INR crore,reported
+BERGEPAINT,2022,cash_and_investments,400.21999999999997,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2022,net_cash,-267.7100000000001,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2022,debt_to_equity,0.16977702991235744,,,Debt to equity,times,reported
+BERGEPAINT,2022,free_cash_flow,-207.51999999999998,,,Free cash flow,INR crore,reported
+BERGEPAINT,2022,capex_to_revenue,0.08834049702229455,,,Capex intensity,percent,reported
+BERGEPAINT,2022,cash_conversion_pat,0.6801128519118794,,,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2022,cash_conversion_ebitda,0.4255974516742169,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2022,receivable_days,43.8944141487232,,,Receivable days,days,reported
+BERGEPAINT,2022,inventory_days,155.69479671472277,,,Inventory days,days,reported
+BERGEPAINT,2022,payable_days,121.20949812767195,,,Payable days,days,reported
+BERGEPAINT,2022,cash_conversion_cycle,78.37971273577402,,,Cash conversion cycle,days,reported
+BERGEPAINT,2023,revenue_growth,0.2061293481461528,,,Revenue growth,percent,reported
+BERGEPAINT,2023,ebitda_growth,0.11729661099716715,,,EBITDA growth,percent,underlying
+BERGEPAINT,2023,pat_growth,0.032955159373311727,,,Net profit growth (reported),percent,reported
+BERGEPAINT,2023,underlying_pbt_growth,0.03568596352101494,,,Underlying profit growth,percent,underlying
+BERGEPAINT,2023,gross_margin,0.3631129918696725,,,Gross margin,percent,underlying
+BERGEPAINT,2023,ebitda,1487.1999999999996,,,EBITDA,INR crore,underlying
+BERGEPAINT,2023,ebitda_margin,0.14072885282139014,,,EBITDA margin,percent,underlying
+BERGEPAINT,2023,pat_margin,0.08141682690123998,,,Net profit margin (reported),percent,reported
+BERGEPAINT,2023,underlying_pbt_margin,0.10998841768989688,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2023,roe,0.20411085949476968,,,Return on equity (reported),percent,reported
+BERGEPAINT,2023,roce,0.2555854943273906,,,Return on capital employed,percent,underlying
+BERGEPAINT,2023,total_debt,767.65,,,Total borrowings,INR crore,reported
+BERGEPAINT,2023,cash_and_investments,297.65,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2023,net_cash,-470.0,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2023,debt_to_equity,0.17050325836357738,,,Debt to equity,times,reported
+BERGEPAINT,2023,free_cash_flow,227.93000000000006,,,Free cash flow,INR crore,reported
+BERGEPAINT,2023,capex_to_revenue,0.07078456903208223,,,Capex intensity,percent,reported
+BERGEPAINT,2023,cash_conversion_pat,1.1343212459321246,,,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2023,cash_conversion_ebitda,0.6562466379774075,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2023,receivable_days,42.93581280564429,,,Receivable days,days,reported
+BERGEPAINT,2023,inventory_days,125.76722155197517,,,Inventory days,days,reported
+BERGEPAINT,2023,payable_days,95.75439193405562,,,Payable days,days,reported
+BERGEPAINT,2023,cash_conversion_cycle,72.94864242356384,,,Cash conversion cycle,days,reported
+BERGEPAINT,2024,revenue_growth,0.059717028266892846,,,Revenue growth,percent,reported
+BERGEPAINT,2024,ebitda_growth,0.251559978483056,,,EBITDA growth,percent,underlying
+BERGEPAINT,2024,pat_growth,0.35962343096234295,,,Net profit growth (reported),percent,reported
+BERGEPAINT,2024,underlying_pbt_growth,0.33944456871483397,,,Underlying profit growth,percent,underlying
+BERGEPAINT,2024,gross_margin,0.40654991731345524,,,Gross margin,percent,underlying
+BERGEPAINT,2024,ebitda,1861.3200000000004,,,EBITDA,INR crore,underlying
+BERGEPAINT,2024,ebitda_margin,0.16620531265514893,,,EBITDA margin,percent,underlying
+BERGEPAINT,2024,pat_margin,0.1044582870491083,,,Net profit margin (reported),percent,reported
+BERGEPAINT,2024,underlying_pbt_margin,0.13902144135327335,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2024,roe,0.23655005677047408,,,Return on equity (reported),percent,reported
+BERGEPAINT,2024,roce,0.3010054747011373,,,Return on capital employed,percent,underlying
+BERGEPAINT,2024,total_debt,205.44,,,Total borrowings,INR crore,reported
+BERGEPAINT,2024,cash_and_investments,536.56,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2024,net_cash,331.11999999999995,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2024,debt_to_equity,0.03812089802325776,,,Debt to equity,times,reported
+BERGEPAINT,2024,free_cash_flow,1316.06,,,Free cash flow,INR crore,reported
+BERGEPAINT,2024,capex_to_revenue,0.024555046379472308,,,Capex intensity,percent,reported
+BERGEPAINT,2024,cash_conversion_pat,1.360081038108427,,,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2024,cash_conversion_ebitda,0.8547965959641542,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2024,receivable_days,42.43599382797627,,,Receivable days,days,reported
+BERGEPAINT,2024,inventory_days,119.70857658742099,,,Inventory days,days,reported
+BERGEPAINT,2024,payable_days,92.22263767679807,,,Payable days,days,reported
+BERGEPAINT,2024,cash_conversion_cycle,69.92193273859918,,,Cash conversion cycle,days,reported
+BERGEPAINT,2025,revenue_growth,0.03087708457601268,,,Revenue growth,percent,reported
+BERGEPAINT,2025,ebitda_growth,-0.0028098338813317136,,,EBITDA growth,percent,underlying
+BERGEPAINT,2025,pat_growth,0.01110427245217216,,,Net profit growth (reported),percent,reported
+BERGEPAINT,2025,underlying_pbt_growth,0.00743790505430697,,,Underlying profit growth,percent,underlying
+BERGEPAINT,2025,gross_margin,0.4142832518097033,,,Gross margin,percent,underlying
+BERGEPAINT,2025,ebitda,1856.0900000000001,,,EBITDA,INR crore,underlying
+BERGEPAINT,2025,ebitda_margin,0.1607740688159339,,,EBITDA margin,percent,underlying
+BERGEPAINT,2025,pat_margin,0.10245471735539481,,,Net profit margin (reported),percent,reported
+BERGEPAINT,2025,underlying_pbt_margin,0.13586049368065548,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2025,roe,0.20469831536616012,,,Return on equity (reported),percent,reported
+BERGEPAINT,2025,roce,0.2740683634067154,,,Return on capital employed,percent,underlying
+BERGEPAINT,2025,total_debt,146.24,,,Total borrowings,INR crore,reported
+BERGEPAINT,2025,cash_and_investments,834.1600000000001,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2025,net_cash,687.9200000000001,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2025,debt_to_equity,0.023714504864035653,,,Debt to equity,times,reported
+BERGEPAINT,2025,free_cash_flow,839.6099999999999,,,Free cash flow,INR crore,reported
+BERGEPAINT,2025,capex_to_revenue,0.037197989382149924,,,Capex intensity,percent,reported
+BERGEPAINT,2025,cash_conversion_pat,1.0729111184382953,,,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2025,cash_conversion_ebitda,0.6837222332968766,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2025,receivable_days,48.552068436539344,,,Receivable days,days,reported
+BERGEPAINT,2025,inventory_days,127.72109442126731,,,Inventory days,days,reported
+BERGEPAINT,2025,payable_days,93.93746312073624,,,Payable days,days,reported
+BERGEPAINT,2025,cash_conversion_cycle,82.33569973707041,,,Cash conversion cycle,days,reported
+BERGEPAINT,2026,revenue_growth,0.0290643939951718,,,Revenue growth,percent,reported
+BERGEPAINT,2026,ebitda_growth,-0.012278499426213396,,,EBITDA growth,percent,underlying
+BERGEPAINT,2026,pat_growth,-0.04632189447163959,,this year includes exceptional items of -53.29 cr,Net profit growth (reported),percent,reported
+BERGEPAINT,2026,underlying_pbt_growth,-0.01726523299776206,,,Underlying profit growth,percent,underlying
+BERGEPAINT,2026,gross_margin,0.42532690810378565,,,Gross margin,percent,underlying
+BERGEPAINT,2026,ebitda,1833.2999999999997,,,EBITDA,INR crore,underlying
+BERGEPAINT,2026,ebitda_margin,0.15431493445003258,,,EBITDA margin,percent,underlying
+BERGEPAINT,2026,pat_margin,0.0949491803623661,,this year includes exceptional items of -53.29 cr,Net profit margin (reported),percent,reported
+BERGEPAINT,2026,underlying_pbt_margin,0.12974390269565036,,,Underlying profit margin,percent,underlying
+BERGEPAINT,2026,roe,0.17243268305297674,,this year includes exceptional items of -53.29 cr,Return on equity (reported),percent,reported
+BERGEPAINT,2026,roce,0.2389169425337335,,,Return on capital employed,percent,underlying
+BERGEPAINT,2026,total_debt,142.24,,,Total borrowings,INR crore,reported
+BERGEPAINT,2026,cash_and_investments,1258.85,,,Cash and liquid investments,INR crore,reported
+BERGEPAINT,2026,net_cash,1116.61,,,Net cash (negative = net debt),INR crore,reported
+BERGEPAINT,2026,debt_to_equity,0.020525548709216586,,,Debt to equity,times,reported
+BERGEPAINT,2026,free_cash_flow,1022.0699999999999,,,Free cash flow,INR crore,reported
+BERGEPAINT,2026,capex_to_revenue,0.04359925085751563,,,Capex intensity,percent,reported
+BERGEPAINT,2026,cash_conversion_pat,1.3652594812148722,,this year includes exceptional items of -53.29 cr,Cash conversion (OCF / net profit),times,reported
+BERGEPAINT,2026,cash_conversion_ebitda,0.8400370915834834,,,Cash conversion (OCF / EBITDA),times,underlying
+BERGEPAINT,2026,receivable_days,48.08865975042613,,,Receivable days,days,reported
+BERGEPAINT,2026,inventory_days,127.94722187231774,,,Inventory days,days,reported
+BERGEPAINT,2026,payable_days,93.29305607227496,,,Payable days,days,reported
+BERGEPAINT,2026,cash_conversion_cycle,82.74282555046892,,,Cash conversion cycle,days,reported
+KANSAINER,2021,revenue_growth,,"needs the previous year, which is not in the dataset",,Revenue growth,percent,reported
+KANSAINER,2021,ebitda_growth,,"needs the previous year, which is not in the dataset",,EBITDA growth,percent,underlying
+KANSAINER,2021,pat_growth,,"needs the previous year, which is not in the dataset",,Net profit growth (reported),percent,reported
+KANSAINER,2021,underlying_pbt_growth,,"needs the previous year, which is not in the dataset",,Underlying profit growth,percent,underlying
+KANSAINER,2021,gross_margin,0.37990244863772965,,,Gross margin,percent,underlying
+KANSAINER,2021,ebitda,863.2799999999997,,,EBITDA,INR crore,underlying
+KANSAINER,2021,ebitda_margin,0.17012957579937918,,,EBITDA margin,percent,underlying
+KANSAINER,2021,pat_margin,0.10360545893481796,,,Net profit margin (reported),percent,reported
+KANSAINER,2021,underlying_pbt_margin,0.14040498595851605,,,Underlying profit margin,percent,underlying
+KANSAINER,2021,roe,,"needs the previous year, which is not in the dataset",,Return on equity (reported),percent,reported
+KANSAINER,2021,roce,,"needs the previous year, which is not in the dataset",,Return on capital employed,percent,underlying
+KANSAINER,2021,total_debt,173.1,,,Total borrowings,INR crore,reported
+KANSAINER,2021,cash_and_investments,792.5899999999999,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2021,net_cash,619.4899999999999,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2021,debt_to_equity,0.04233122533124001,,,Debt to equity,times,reported
+KANSAINER,2021,free_cash_flow,542.08,,,Free cash flow,INR crore,reported
+KANSAINER,2021,capex_to_revenue,0.02045425432329901,,,Capex intensity,percent,reported
+KANSAINER,2021,cash_conversion_pat,1.2285437114813968,,,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2021,cash_conversion_ebitda,0.7481581873783711,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2021,receivable_days,68.79198896388628,,,Receivable days,days,reported
+KANSAINER,2021,inventory_days,138.96083940086382,,,Inventory days,days,reported
+KANSAINER,2021,payable_days,105.19184625603442,,,Payable days,days,reported
+KANSAINER,2021,cash_conversion_cycle,102.56098210871566,,,Cash conversion cycle,days,reported
+KANSAINER,2022,revenue_growth,0.25522983692171275,,,Revenue growth,percent,reported
+KANSAINER,2022,ebitda_growth,-0.24779909183578752,,,EBITDA growth,percent,underlying
+KANSAINER,2022,pat_growth,-0.3472761165639505,,,Net profit growth (reported),percent,reported
+KANSAINER,2022,underlying_pbt_growth,-0.3313074601726437,,,Underlying profit growth,percent,underlying
+KANSAINER,2022,gross_margin,0.3049055241115657,,,Gross margin,percent,underlying
+KANSAINER,2022,ebitda,649.3600000000012,,,EBITDA,INR crore,underlying
+KANSAINER,2022,ebitda_margin,0.10195074850651968,,,EBITDA margin,percent,underlying
+KANSAINER,2022,pat_margin,0.05387519919615031,,,Net profit margin (reported),percent,reported
+KANSAINER,2022,underlying_pbt_margin,0.07479727130711925,,,Underlying profit margin,percent,underlying
+KANSAINER,2022,roe,0.0876859471822038,,,Return on equity (reported),percent,reported
+KANSAINER,2022,roce,0.11721302248285033,,,Return on capital employed,percent,underlying
+KANSAINER,2022,total_debt,203.0,,,Total borrowings,INR crore,reported
+KANSAINER,2022,cash_and_investments,315.46000000000004,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2022,net_cash,112.46000000000004,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2022,debt_to_equity,0.04889787089516826,,,Debt to equity,times,reported
+KANSAINER,2022,free_cash_flow,-194.23999999999998,,,Free cash flow,INR crore,reported
+KANSAINER,2022,capex_to_revenue,0.03438498433906128,,,Capex intensity,percent,reported
+KANSAINER,2022,cash_conversion_pat,0.07218417601631939,,,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2022,cash_conversion_ebitda,0.038145250708389734,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2022,receivable_days,62.65403063106909,,,Receivable days,days,reported
+KANSAINER,2022,inventory_days,134.34502970207578,,,Inventory days,days,reported
+KANSAINER,2022,payable_days,80.84692702098346,,,Payable days,days,reported
+KANSAINER,2022,cash_conversion_cycle,116.15213331216142,,,Cash conversion cycle,days,reported
+KANSAINER,2023,revenue_growth,0.1842228798857024,,,Revenue growth,percent,reported
+KANSAINER,2023,ebitda_growth,0.259686460514966,,,EBITDA growth,percent,underlying
+KANSAINER,2023,pat_growth,0.3652047209675071,,,Net profit growth (reported),percent,reported
+KANSAINER,2023,underlying_pbt_growth,0.3326546462080979,,,Underlying profit growth,percent,underlying
+KANSAINER,2023,gross_margin,0.3020723265979294,,,Gross margin,percent,underlying
+KANSAINER,2023,ebitda,817.9899999999998,,,EBITDA,INR crore,underlying
+KANSAINER,2023,ebitda_margin,0.10844747193655345,,,EBITDA margin,percent,underlying
+KANSAINER,2023,pat_margin,0.062108812061415435,,,Net profit margin (reported),percent,reported
+KANSAINER,2023,underlying_pbt_margin,0.08417244154304875,,,Underlying profit margin,percent,underlying
+KANSAINER,2023,roe,0.10929710867397806,,,Return on equity (reported),percent,reported
+KANSAINER,2023,roce,0.14631329677098726,,,Return on capital employed,percent,underlying
+KANSAINER,2023,total_debt,159.99,,,Total borrowings,INR crore,reported
+KANSAINER,2023,cash_and_investments,624.99,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2023,net_cash,465.0,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2023,debt_to_equity,0.035082371979712354,,,Debt to equity,times,reported
+KANSAINER,2023,free_cash_flow,285.08,,,Free cash flow,INR crore,reported
+KANSAINER,2023,capex_to_revenue,0.016329631313861163,,,Capex intensity,percent,reported
+KANSAINER,2023,cash_conversion_pat,0.8714538817853864,,,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2023,cash_conversion_ebitda,0.49908923091969354,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2023,receivable_days,59.903662201881815,,,Receivable days,days,reported
+KANSAINER,2023,inventory_days,119.88960503620629,,,Inventory days,days,reported
+KANSAINER,2023,payable_days,70.41338036730569,,,Payable days,days,reported
+KANSAINER,2023,cash_conversion_cycle,109.37988687078241,,,Cash conversion cycle,days,reported
+KANSAINER,2024,revenue_growth,0.03429925239270126,,,Revenue growth,percent,reported
+KANSAINER,2024,ebitda_growth,0.25643345273169627,,,EBITDA growth,percent,underlying
+KANSAINER,2024,pat_growth,1.5100006403825215,,this year includes exceptional items of 661.25 cr,Net profit growth (reported),percent,reported
+KANSAINER,2024,underlying_pbt_growth,0.41750539463529135,,,Underlying profit growth,percent,underlying
+KANSAINER,2024,gross_margin,0.35343859595151667,,,Gross margin,percent,underlying
+KANSAINER,2024,ebitda,1027.75,,,EBITDA,INR crore,underlying
+KANSAINER,2024,ebitda_margin,0.13173849955905578,,,EBITDA margin,percent,underlying
+KANSAINER,2024,pat_margin,0.15072345618244837,,this year includes exceptional items of 661.25 cr,Net profit margin (reported),percent,reported
+KANSAINER,2024,underlying_pbt_margin,0.11535819028281959,,,Underlying profit margin,percent,underlying
+KANSAINER,2024,roe,0.23436329236298792,,this year includes exceptional items of 661.25 cr,Return on equity (reported),percent,reported
+KANSAINER,2024,roce,0.17800703085337702,,,Return on capital employed,percent,underlying
+KANSAINER,2024,total_debt,120.7,,,Total borrowings,INR crore,reported
+KANSAINER,2024,cash_and_investments,1582.8500000000001,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2024,net_cash,1462.15,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2024,debt_to_equity,0.021558961168863643,,,Debt to equity,times,reported
+KANSAINER,2024,free_cash_flow,666.01,,,Free cash flow,INR crore,reported
+KANSAINER,2024,capex_to_revenue,0.030379006952562605,,,Capex intensity,percent,reported
+KANSAINER,2024,cash_conversion_pat,0.7679570697191843,,this year includes exceptional items of 661.25 cr,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2024,cash_conversion_ebitda,0.8786280710289467,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2024,receivable_days,62.454008490740186,,,Receivable days,days,reported
+KANSAINER,2024,inventory_days,122.10734896740952,,,Inventory days,days,reported
+KANSAINER,2024,payable_days,79.27794992575498,,,Payable days,days,reported
+KANSAINER,2024,cash_conversion_cycle,105.28340753239472,,,Cash conversion cycle,days,reported
+KANSAINER,2025,revenue_growth,0.002759746918517658,,,Revenue growth,percent,reported
+KANSAINER,2025,ebitda_growth,-0.08312332765750363,,,EBITDA growth,percent,underlying
+KANSAINER,2025,pat_growth,-0.056579864949908965,,this year includes exceptional items of 629.51 cr; previous year includes exceptional items of 661.25 cr,Net profit growth (reported),percent,reported
+KANSAINER,2025,underlying_pbt_growth,-0.05715809591537413,,,Underlying profit growth,percent,underlying
+KANSAINER,2025,gross_margin,0.3519954697512582,,,Gross margin,percent,underlying
+KANSAINER,2025,ebitda,942.3200000000006,,,EBITDA,INR crore,underlying
+KANSAINER,2025,ebitda_margin,0.12045553031649113,,,EBITDA margin,percent,underlying
+KANSAINER,2025,pat_margin,0.1418041996837518,,this year includes exceptional items of 629.51 cr,Net profit margin (reported),percent,reported
+KANSAINER,2025,underlying_pbt_margin,0.10846519927853487,,,Underlying profit margin,percent,underlying
+KANSAINER,2025,roe,0.19040090890009095,,this year includes exceptional items of 629.51 cr,Return on equity (reported),percent,reported
+KANSAINER,2025,roce,0.14373471398299892,,,Return on capital employed,percent,underlying
+KANSAINER,2025,total_debt,117.82,,,Total borrowings,INR crore,reported
+KANSAINER,2025,cash_and_investments,2136.04,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2025,net_cash,2018.22,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2025,debt_to_equity,0.0183965549008035,,,Debt to equity,times,reported
+KANSAINER,2025,free_cash_flow,346.06,,,Free cash flow,INR crore,reported
+KANSAINER,2025,capex_to_revenue,0.041710501254638585,,,Capex intensity,percent,reported
+KANSAINER,2025,cash_conversion_pat,0.6060955712006346,,this year includes exceptional items of 629.51 cr,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2025,cash_conversion_ebitda,0.7135155785720345,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2025,receivable_days,63.300191615204966,,,Receivable days,days,reported
+KANSAINER,2025,inventory_days,119.88798300363759,,,Inventory days,days,reported
+KANSAINER,2025,payable_days,79.25594557060909,,,Payable days,days,reported
+KANSAINER,2025,cash_conversion_cycle,103.93222904823345,,,Cash conversion cycle,days,reported
+KANSAINER,2026,revenue_growth,0.02926510008347205,,,Revenue growth,percent,reported
+KANSAINER,2026,ebitda_growth,0.0342558791068841,,,EBITDA growth,percent,underlying
+KANSAINER,2026,pat_growth,-0.4809119017785509,,this year includes exceptional items of -63.15 cr; previous year includes exceptional items of 629.51 cr,Net profit growth (reported),percent,reported
+KANSAINER,2026,underlying_pbt_growth,0.013682647433177708,,,Underlying profit growth,percent,underlying
+KANSAINER,2026,gross_margin,0.3546127564764136,,,Gross margin,percent,underlying
+KANSAINER,2026,ebitda,974.5999999999997,,,EBITDA,INR crore,underlying
+KANSAINER,2026,ebitda_margin,0.12103960426780723,,,EBITDA margin,percent,underlying
+KANSAINER,2026,pat_margin,0.07151595087376784,,this year includes exceptional items of -63.15 cr,Net profit margin (reported),percent,reported
+KANSAINER,2026,underlying_pbt_margin,0.10682310159949628,,,Underlying profit margin,percent,underlying
+KANSAINER,2026,roe,0.0897423600929897,,this year includes exceptional items of -63.15 cr,Return on equity (reported),percent,reported
+KANSAINER,2026,roce,0.1342609831192111,,,Return on capital employed,percent,underlying
+KANSAINER,2026,total_debt,82.68,,,Total borrowings,INR crore,reported
+KANSAINER,2026,cash_and_investments,2587.21,,,Cash and liquid investments,INR crore,reported
+KANSAINER,2026,net_cash,2504.53,,,Net cash (negative = net debt),INR crore,reported
+KANSAINER,2026,debt_to_equity,0.012360869207711341,,,Debt to equity,times,reported
+KANSAINER,2026,free_cash_flow,681.25,,,Free cash flow,INR crore,reported
+KANSAINER,2026,capex_to_revenue,0.02646825411610413,,,Capex intensity,percent,reported
+KANSAINER,2026,cash_conversion_pat,1.5531571269797164,,this year includes exceptional items of -63.15 cr,Cash conversion (OCF / net profit),times,reported
+KANSAINER,2026,cash_conversion_ebitda,0.9176790478144883,,,Cash conversion (OCF / EBITDA),times,underlying
+KANSAINER,2026,receivable_days,66.5166898288729,,,Receivable days,days,reported
+KANSAINER,2026,inventory_days,107.47643651618365,,,Inventory days,days,reported
+KANSAINER,2026,payable_days,81.80366008544048,,,Payable days,days,reported
+KANSAINER,2026,cash_conversion_cycle,92.18946625961608,,,Cash conversion cycle,days,reported

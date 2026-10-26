@@ -7,9 +7,10 @@ FinSight combines:
 2. **Cited answers.** Questions about the annual reports are answered only from retrieved passages, with document and page references. It says so when the evidence isn't there.
 3. **Analyst briefs.** Every number comes from the database. The AI writes only the cited commentary.
 
-> **Status:** in development. Milestones 1–2 of 10 are complete:
+> **Status:** in development. Milestones 1–3 of 10 are complete:
 > - 15 source reports verified, and 558 financial figures (3 companies × FY2021–26 × 31 line items) collected with page references.
 > - Every figure passes 90 accounting-identity checks, 372 cross-report comparisons (2 restatements, both explained) and 54 second-source comparisons. A random sample of 20 was also verified by hand against the PDFs: 20/20 correct.
+> - 23 financial metrics (growth, margins, ROE/ROCE, net cash, cash conversion, working-capital days), each tested against hand calculations. Comparison tables: [`eval/metrics_summary.md`](eval/metrics_summary.md).
 >
 > Full design: [PROJECT_NOTES.md](PROJECT_NOTES.md).
 
@@ -35,6 +36,7 @@ Download the PDFs as described in [`data/reports/README.md`](data/reports/README
 python scripts/check_documents.py   # expect: 15/15 documents passed; 45/45 statement pages verified
 python scripts/build_dataset.py     # re-reads the statements and rebuilds the dataset
 python scripts/validate_data.py     # expect: 0 FAIL
+python scripts/build_metrics.py     # calculates all metrics and the comparison tables
 pytest                              # expect: all tests pass
 ```
 
@@ -44,7 +46,8 @@ pytest                              # expect: all tests pass
 |---|---|
 | 1. Setup, companies, sources | ✅ Done |
 | 2. Curated dataset + validation | ✅ Done |
-| 3. Financial metrics in Python | Next |
-| 4–10. SQL, retrieval, app, brief, evaluation | Planned |
+| 3. Financial metrics in Python | ✅ Done |
+| 4. SQLite database + SQL queries | Next |
+| 5–10. Retrieval, app, brief, evaluation | Planned |
 
 Limitations, results and the case study will be documented here as each milestone is verified.

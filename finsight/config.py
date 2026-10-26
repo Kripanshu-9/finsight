@@ -19,6 +19,10 @@ VALUE_NOTES_CSV = CURATED_DIR / "value_notes.csv"          # explanations (excep
 REPORTED_VALUES_CSV = CURATED_DIR / "reported_values.csv"  # final dataset used by the app
 SECOND_SOURCE_CSV = CURATED_DIR / "second_source_screener.csv"
 
+METRIC_DEFINITIONS_CSV = CURATED_DIR / "metric_definitions.csv"
+DERIVED_DIR = DATA_DIR / "derived"                         # calculated from curated data (committed)
+METRICS_CSV = DERIVED_DIR / "metrics.csv"
+
 EVAL_DIR = PROJECT_ROOT / "eval"
 
 FIRST_YEAR = 2021  # FY2021 comes from the comparative column of the FY2022 reports

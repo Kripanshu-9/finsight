@@ -1,6 +1,6 @@
 # FinSight: Project Notes
 
-> **Status:** Milestones 1–2 complete and verified (26 Oct 2026). Next: Milestone 3, metrics in Python.
+> **Status:** Milestones 1–3 complete (26 Oct 2026). Next: Milestone 4, SQLite database and SQL queries.
 > This file is the single reference for how the project is built. It is updated at the end of every milestone.
 
 ---
@@ -106,6 +106,7 @@ FinSight_App_Project/
 │   ├── extraction.py          # read statement pages line by line, pick out each line item
 │   ├── dataset.py             # draft + corrections + notes -> reported_values.csv
 │   ├── validation.py          # data checks (see §8)
+│   ├── metrics.py             # 23 metrics, one function each (Milestone 3)
 │   ├── database.py            # create tables, load CSVs into SQLite
 │   ├── metrics.py             # every formula, one function each
 │   ├── queries.py             # SQL queries used by the app
@@ -125,13 +126,17 @@ FinSight_App_Project/
 │   │   ├── corrections.csv          # manual fixes with reasons (none needed so far)
 │   │   ├── value_notes.csv          # exceptional items and restatements explained
 │   │   ├── second_source_screener.csv
-│   │   └── reported_values.csv      # FINAL: 558 values, each with document + page
+│   │   ├── reported_values.csv      # FINAL: 558 values, each with document + page
+│   │   └── metric_definitions.csv   # 23 metrics: formula, unit, reported/underlying, why it matters
+│   ├── derived/
+│   │   └── metrics.csv              # all metrics x company x year, blanks explained, one-offs flagged
 │   └── processed/             # finsight.db, embeddings.npy (rebuilt by scripts)
 ├── scripts/
 │   ├── check_documents.py     # Milestone 1: confirm all PDFs exist and open
 │   ├── build_dataset.py       # Milestone 2: PDFs -> draft -> reported_values.csv
 │   ├── validate_data.py       # Milestone 2: all data checks -> eval/data_validation.md
 │   ├── make_spot_check.py     # Milestone 2: 20 random values for a hand check
+│   ├── build_metrics.py       # Milestone 3: metrics.csv + eval/metrics_summary.md
 │   ├── build_database.py      # CSVs → validated SQLite + metrics
 │   ├── build_index.py         # PDFs → chunks → embeddings
 │   └── run_eval.py            # runs the evaluation question set
@@ -238,31 +243,31 @@ P&L: revenue from operations, other income, cost of materials consumed, purchase
 Balance sheet: total equity, equity attributable to owners, borrowings (current and non-current, excluding lease liabilities), cash and cash equivalents, other bank balances, current investments, inventories, trade receivables, trade payables, total assets, total equity and liabilities.
 Cash flow: net cash from operating activities, capital expenditure.
 
-**Metrics (Python, one function each, all tested):**
+**Metrics (Milestone 3): 23 metrics, one function each in `finsight/metrics.py`, all tested.** Each formula, unit and a one-line "why it matters" is in `data/curated/metric_definitions.csv`.
 
-| Metric | Formula |
+| Group | Metrics |
 |---|---|
-| Revenue growth | (Revenue_t / Revenue_t-1) − 1 |
-| Gross margin | (Revenue − materials − purchases − Δinventories) / Revenue |
-| EBITDA margin | (Revenue − materials − purchases − Δinventories − employee costs − other expenses) / Revenue |
-| PAT margin | Profit for the year / Revenue |
-| PAT growth | (PAT_t / PAT_t-1) − 1, flagged when either year includes exceptional items |
-| ROE | Profit attributable to owners / average equity attributable to owners |
-| Net cash (debt) | Cash + other bank balances + current investments − borrowings |
-| Debt-to-equity | Borrowings / total equity (shown, but low for all three) |
-| Free cash flow | Operating cash flow − capex |
-| Cash conversion | Operating cash flow / PAT |
-| Receivable days | Trade receivables / Revenue × 365 |
-| Inventory days | Inventories / (materials + purchases + Δinventories) × 365 |
+| Growth | revenue, EBITDA, net profit (reported), underlying profit (before exceptional items and tax) |
+| Profitability | gross margin, EBITDA (₹ Cr), EBITDA margin, net margin (reported), underlying profit margin |
+| Returns | ROE = owners' profit ÷ average owners' equity; ROCE = (profit before exceptional items and tax + finance costs) ÷ average (total equity + borrowings) |
+| Balance sheet | total borrowings (excl. leases), cash and liquid investments, net cash, debt to equity |
+| Cash flow | free cash flow = OCF − capex, capex ÷ revenue, cash conversion OCF ÷ net profit, cash conversion OCF ÷ EBITDA |
+| Working capital | receivable days (on revenue), inventory and payable days (on cost of goods sold), cash conversion cycle; year-end balances |
+
+**Decisions taken with Kripanshu (26 Oct 2026):**
+1. **One-offs:** show **reported and underlying** metrics side by side. "Reported" profit metrics (net margin, net profit growth, ROE, OCF ÷ net profit) are flagged † in any year with exceptional items. Growth is also flagged when the *previous* year had them. "Underlying" profit is measured **before tax**, because removing a one-off after tax would mean guessing the tax on it, and the reports don't disclose that.
+2. **Cash conversion:** show **both** OCF ÷ net profit (the classic, distorted by one-offs) and OCF ÷ EBITDA (comparable, but below 1 because tax is paid).
+
+**Our EBITDA vs a company's own EBITDA:** Asian Paints' printed EBITDA *includes* other income; ours deliberately doesn't, so that companies with large treasury income don't look more efficient at selling paint. The tests confirm that our EBITDA + other income equals Asian Paints' printed figure in all 6 years.
 
 EBITDA is built from the operating cost lines, so it automatically excludes other income, exceptional items and the share of associates/JVs. (Changed from the first draft, which worked backwards from PBT and would have wrongly included JV profits.)
 
 Exceptional items are stored as their effect on profit: gains positive, losses negative.
 
 Rules:
-- Missing input → metric is NULL with a reason. Gaps are never filled with zero.
-- Growth rates are not shown when the earlier value is negative or zero.
-- All amounts are in ₹ crore, all ratios are decimals stored and shown as %.
+- If a metric can't be calculated, it's left blank with a reason (`null_reason`), never 0. The only blanks are FY2021 growth, ROE and ROCE, which need FY2020.
+- Growth isn't shown when the earlier value is zero or negative, and a gap between years is never treated as "the previous year".
+- Amounts are in ₹ crore. Percentages are stored as fractions (0.183 = 18.3%).
 
 ---
 
@@ -303,14 +308,15 @@ pip install -r requirements.txt
 python scripts/check_documents.py # Milestone 1: expect "15/15 documents passed"
 python scripts/build_dataset.py   # Milestone 2: re-read the 45 pages, rebuild reported_values.csv
 python scripts/validate_data.py   # Milestone 2: expect "0 FAIL"
-python scripts/make_spot_check.py # Milestone 2: (re)create the 20-value hand-check sheet
+python scripts/make_spot_check.py # Milestone 2: (re)create the hand-check sheet (overwrites entries!)
+python scripts/build_metrics.py   # Milestone 3: all metrics + comparison tables
 pytest                            # all tests
 ```
 
 Coming in later milestones:
 
 ```bash
-python scripts/build_database.py  # Milestone 3–4
+python scripts/build_database.py  # Milestone 4
 python scripts/build_index.py     # Milestone 5–6
 python scripts/run_eval.py        # Milestone 10
 streamlit run app.py
@@ -374,6 +380,25 @@ Objective: every figure needed for the metrics, for 3 companies × FY2021–FY20
   - Lesson: the sheet now names the exact column ("FY2021 column: the RIGHT-hand number"), and explains why exceptional items can differ in sign.
 
 How the figures were collected is described in §3.
+
+## 12c. Milestone 3: metrics
+
+**Result (26 Oct 2026):**
+- 23 metrics × 3 companies × 6 years = 414 rows in `data/derived/metrics.csv`: 396 values and 18 blanks (each with a reason). 33 values are flagged for exceptional items.
+- **93 tests pass** (38 new):
+  - All 23 metrics match a hand-worked example (working in the test comments).
+  - Berger FY2025 EBITDA was calculated by hand from PDF page 205: ₹1,856.09 Cr.
+  - Our EBITDA + other income equals Asian Paints' own printed EBITDA in all 6 years.
+  - Edge cases: growth from a loss, a gap between years, and flags carried into the next year's growth.
+- Comparison tables: `eval/metrics_summary.md`.
+
+**What the numbers show** (to be explained from the filings in Milestones 5–6):
+- **The FY2022 cost shock:** gross margin fell 5–8 points at all three companies (e.g. Asian Paints 44.3% → 37.1%) and recovered by FY2024. Cash conversion collapsed the same year (Nerolac OCF ÷ EBITDA 0.04x) as working capital built up.
+- **The slowdown from FY2024:** revenue growth fell from 18–21% (FY2023) to between −5% and +6% (FY2024–26). In FY2025, Asian Paints was the only one whose **revenue fell (−4.5%)**, and its EBITDA margin dropped 3.7 points (21.4% → 17.7%). That is the year after Birla Opus launched; the filings will have to say whether that is the cause.
+- **A clear order:** Asian Paints leads on EBITDA margin (16.5–22.4%) and ROCE (27–40%), then Berger (14–17%, 24–30%), then Nerolac (10–17%, 12–18%).
+- **Nerolac's reported ROE** jumps to 23.4% in FY2024 (land sale) while its ROCE is 17.8%: the one-off at work.
+- **Berger was briefly in net debt** in FY2022–23 (capex 8.8% of revenue in FY2022, a new plant) and was back to ₹1,117 Cr net cash by FY2026.
+- **Nerolac ties up cash longest:** its cash conversion cycle is 92–116 days, and its receivable days (60–69) are the highest of the three, consistent with its larger industrial and automotive customer base.
 
 ## 13. Known difficulties and how they are handled
 
