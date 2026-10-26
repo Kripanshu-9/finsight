@@ -1,35 +1,15 @@
-# Data validation report (2026-10-25)
+# Data validation report (2026-10-26)
 
 - Values checked: 558 (3 companies x 6 years x 31 line items)
 - Accounting identities: 5 per statement column x 18 company-years
 - Cross-report comparisons (same figure read from two different reports): 372
 - Second-source comparisons with Screener.in: 54
-- Hand spot check: 0 of 20 values confirmed
-- Result: **0 FAIL**, 21 WARN, 10 INFO
+- Hand spot check: 20 of 20 values confirmed against the PDF (2 after re-checking a slip in the first entry)
+- Result: **0 FAIL**, 1 WARN, 30 INFO
 
 ## WARN
 
 - [plausibility] KANSAINER FY2024: profit_for_the_year changed +151% year on year (exceptional items this year: 661.25)
-- [spot check] ASIANPAINT FY2022: Net cash from operating activities: not checked yet
-- [spot check] ASIANPAINT FY2023: Purchases of stock-in-trade: not checked yet
-- [spot check] ASIANPAINT FY2024: Equity attributable to owners of the parent: not checked yet
-- [spot check] ASIANPAINT FY2024: Exceptional items: not checked yet
-- [spot check] ASIANPAINT FY2024: Other expenses: not checked yet
-- [spot check] ASIANPAINT FY2025: Exceptional items: not checked yet
-- [spot check] ASIANPAINT FY2026: Net cash from operating activities: not checked yet
-- [spot check] ASIANPAINT FY2026: Cost of materials consumed: not checked yet
-- [spot check] BERGEPAINT FY2021: Profit before tax: not checked yet
-- [spot check] BERGEPAINT FY2022: Cost of materials consumed: not checked yet
-- [spot check] BERGEPAINT FY2023: Profit before tax: not checked yet
-- [spot check] BERGEPAINT FY2026: Other expenses: not checked yet
-- [spot check] KANSAINER FY2022: Bank balances other than cash and cash equivalents: not checked yet
-- [spot check] KANSAINER FY2022: Equity attributable to owners of the parent: not checked yet
-- [spot check] KANSAINER FY2022: Total equity: not checked yet
-- [spot check] KANSAINER FY2023: Non-controlling interests: not checked yet
-- [spot check] KANSAINER FY2023: Trade receivables (current): not checked yet
-- [spot check] KANSAINER FY2024: Cost of materials consumed: not checked yet
-- [spot check] KANSAINER FY2026: Cash and cash equivalents: not checked yet
-- [spot check] KANSAINER FY2026: Revenue from operations: not checked yet
 
 ## INFO
 
@@ -43,3 +23,23 @@
 - [exceptional items] KANSAINER FY2024: 661.25: Gain of 661.25: profit on sale of land at Kavesar, Thane for a total consideration of 671.00 (Note 46).
 - [exceptional items] KANSAINER FY2025: 629.51: Net gain of 629.51: profit on sale of investment property at Lower Parel, Mumbai 665.44; less impairment of goodwill and other assets in Kansai Paints Lanka 13.24 and Kansai Nerolac Paints (Bangladesh) 22.69 (Note 48).
 - [exceptional items] KANSAINER FY2026: -63.15: Net loss of 63.15: additional employee benefit cost from the Wage Code 44.72; loss from fire at Ghaziabad warehouse 12.67; impairment of goodwill and other assets in overseas subsidiaries (Note 47).
+- [spot check] ASIANPAINT FY2022: Net cash from operating activities: matches (986.49)
+- [spot check] ASIANPAINT FY2023: Purchases of stock-in-trade: matches (4135.65)
+- [spot check] ASIANPAINT FY2024: Equity attributable to owners of the parent: matches (18728.3)
+- [spot check] ASIANPAINT FY2024: Exceptional items: matches (0)
+- [spot check] ASIANPAINT FY2024: Other expenses: matches (5493.36)
+- [spot check] ASIANPAINT FY2025: Exceptional items: matches (363.1)
+- [spot check] ASIANPAINT FY2026: Net cash from operating activities: matches (7088.18)
+- [spot check] ASIANPAINT FY2026: Cost of materials consumed: matches (15384.05) after re-check: Typing slip on first entry (digits 8 and 4 swapped); page re-checked: 15,384.05
+- [spot check] BERGEPAINT FY2021: Profit before tax: matches (978.62) after re-check: First entry read the FY2022 column (1,122.29); the FY2021 figure is the right-hand column: 978.62
+- [spot check] BERGEPAINT FY2022: Cost of materials consumed: matches (5046.77)
+- [spot check] BERGEPAINT FY2023: Profit before tax: matches (1162.34)
+- [spot check] BERGEPAINT FY2026: Other expenses: matches (2306.89)
+- [spot check] KANSAINER FY2022: Bank balances other than cash and cash equivalents: matches (28.96)
+- [spot check] KANSAINER FY2022: Equity attributable to owners of the parent: matches (4132.22)
+- [spot check] KANSAINER FY2022: Total equity: matches (4151.51)
+- [spot check] KANSAINER FY2023: Non-controlling interests: matches (26.71)
+- [spot check] KANSAINER FY2023: Trade receivables (current): matches (1237.91)
+- [spot check] KANSAINER FY2024: Cost of materials consumed: matches (4556.34)
+- [spot check] KANSAINER FY2026: Cash and cash equivalents: matches (196.79)
+- [spot check] KANSAINER FY2026: Revenue from operations: matches (8051.91)

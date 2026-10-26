@@ -180,6 +180,12 @@ def check_spot_check(spot: pd.DataFrame) -> list:
         if typed in ("", "nan"):
             findings.append(Finding("spot check", "WARN", *where, f"{row['line_item']}: not checked yet"))
             continue
+        # If the first entry was a slip by the checker, the re-check (with its reason) is scored,
+        # and the first entry stays in the file as an audit trail.
+        recheck = str(row.get("rechecked_value", "")).strip()
+        review = str(row.get("review_note", "")).strip()
+        if recheck not in ("", "nan"):
+            typed = recheck
         printed = parse_typed_number(typed)
         expected = row["value_cr"]
         # Capital expenditure is printed as an outflow but stored as a positive amount.
@@ -192,7 +198,8 @@ def check_spot_check(spot: pd.DataFrame) -> list:
             findings.append(Finding("spot check", "FAIL", *where,
                                     f"{row['line_item']}: dataset {expected:,.2f}, PDF shows {typed}"))
         else:
-            findings.append(Finding("spot check", "INFO", *where, f"{row['line_item']}: matches ({typed})"))
+            extra = f" after re-check: {review}" if recheck not in ("", "nan") else ""
+            findings.append(Finding("spot check", "INFO", *where, f"{row['line_item']}: matches ({typed}){extra}"))
     return findings
 
 

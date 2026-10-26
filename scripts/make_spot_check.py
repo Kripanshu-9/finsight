@@ -5,7 +5,10 @@ Run from the project folder:
 
 This writes eval/spot_check.csv. Open each PDF at the page given, find the line item,
 and type the number you see into the `value_in_pdf` column (exactly as printed, e.g.
-1,234.56 or (12.30)). Then run `python scripts/validate_data.py`, which scores the result.
+1,234.56 or (12.30)). Then run `python scripts/validate_data.py`, which scores the result. If a first entry
+turns out to be the checker's slip, keep it, and put the re-checked number and the reason in
+`rechecked_value` and `review_note`.
+NOTE: running this script again overwrites eval/spot_check.csv (and any entries in it).
 The random seed is fixed, so the same 20 values are picked every time.
 """
 
@@ -33,7 +36,8 @@ def make_hint(row, layout: str) -> str:
     if row["method"] == "unlabelled_subtotal":
         hints.append("the unlabelled subtotal line")
     if row["item_code"] == "exceptional_items":
-        hints.append("type it exactly as printed; the sign is checked separately")
+        hints.append("type it exactly as printed; some companies print a loss without a minus sign, "
+                     "while the dataset stores losses as negative, so only the size is compared")
     if row["item_code"] == "capital_expenditure":
         hints.append("printed in brackets as an outflow; stored as a positive amount")
     return "; ".join(hints)
@@ -50,14 +54,17 @@ def main() -> None:
     sample = sample.assign(
         file_name=sample["document_id"].map(docs["file_name"]),
         line_item=sample["item_code"].map(labels),
-        which_column=sample["column"].map({"current": "current year (first number column)",
-                                           "comparative": "previous year (second number column)"}),
+        which_column=[f"FY{y} column: the {'LEFT' if c == 'current' else 'RIGHT'}-hand number "
+                      f"(the {'current' if c == 'current' else 'previous'} year in this report)"
+                      for y, c in zip(sample["fiscal_year"], sample["column"])],
         label_as_reported=sample["label_as_reported"].map(lambda t: re.sub(r"\.{3,}", " ", t).strip()),
         hint=[make_hint(row, docs.loc[row["document_id"], "layout"]) for _, row in sample.iterrows()],
         value_in_pdf="",
+        rechecked_value="",
+        review_note="",
     )
     columns = ["company_id", "fiscal_year", "line_item", "label_as_reported", "value_cr", "file_name",
-               "page", "which_column", "hint", "method", "value_in_pdf"]
+               "page", "which_column", "hint", "method", "value_in_pdf", "rechecked_value", "review_note"]
     EVAL_DIR.mkdir(exist_ok=True)
     out = EVAL_DIR / "spot_check.csv"
     sample[columns].sort_values(["company_id", "fiscal_year"]).to_csv(out, index=False)

@@ -27,7 +27,7 @@ def main() -> int:
                        load_documents(), load_companies()["company_id"].tolist(), second)
 
     spot_file = EVAL_DIR / "spot_check.csv"
-    spot = pd.read_csv(spot_file, dtype={"value_in_pdf": str}) if spot_file.exists() else None
+    spot = pd.read_csv(spot_file, dtype={"value_in_pdf": str, "rechecked_value": str}) if spot_file.exists() else None
     if spot is not None:
         findings += check_spot_check(spot)
 
@@ -43,7 +43,10 @@ def main() -> int:
         f"- Cross-report comparisons (same figure read from two different reports): {comparisons}",
         f"- Second-source comparisons with Screener.in: {len(second) * 3}",
         (f"- Hand spot check: {sum(f.check == 'spot check' and f.level == 'INFO' for f in findings)} of "
-         f"{len(spot)} values confirmed" if spot is not None else "- Hand spot check: not created yet"),
+         f"{len(spot)} values confirmed against the PDF"
+         + (f" ({int(spot['rechecked_value'].notna().sum())} after re-checking a slip in the first entry)"
+            if 'rechecked_value' in spot else "")
+         if spot is not None else "- Hand spot check: not created yet"),
         f"- Result: **{counts.get('FAIL', 0)} FAIL**, {counts.get('WARN', 0)} WARN, {counts.get('INFO', 0)} INFO",
         "",
     ]

@@ -1,6 +1,6 @@
 # FinSight: Project Notes
 
-> **Status:** Milestones 1–2 complete (25 Oct 2026); waiting on the 20-value hand spot check. Next: Milestone 3, metrics in Python.
+> **Status:** Milestones 1–2 complete and verified (26 Oct 2026). Next: Milestone 3, metrics in Python.
 > This file is the single reference for how the project is built. It is updated at the end of every milestone.
 
 ---
@@ -367,7 +367,11 @@ Objective: every figure needed for the metrics, for 3 companies × FY2021–FY20
 - **Exceptional items:** 8 non-zero, all explained from the notes to accounts with page references.
 - **Plausibility:** 1 warning, Nerolac FY2024 profit +151%, explained by the ₹661 crore land-sale gain.
 - **Tests:** 55 pass, including: the extractor reproduces the committed draft from the PDFs; each check catches a deliberately planted error (e.g. one wrong digit in Berger's FY2025 other expenses).
-- **Hand spot check:** 20 random values in `eval/spot_check.csv`. **Pending:** you check them against the PDFs.
+- **Hand spot check (done 26 Oct 2026): 20/20 dataset values confirmed against the PDFs.** 18 matched on the first entry. The other 2 were slips by the checker, not the data, and both were re-checked on the page:
+  - Asian Paints FY2026 cost of materials: 8 and 4 swapped when typing.
+  - Berger FY2021 profit before tax: read from the neighbouring FY2022 column.
+  - Both first entries are kept in `eval/spot_check.csv` as an audit trail.
+  - Lesson: the sheet now names the exact column ("FY2021 column: the RIGHT-hand number"), and explains why exceptional items can differ in sign.
 
 How the figures were collected is described in §3.
 

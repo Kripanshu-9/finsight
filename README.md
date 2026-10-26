@@ -9,7 +9,7 @@ FinSight combines:
 
 > **Status:** in development. Milestones 1–2 of 10 are complete:
 > - 15 source reports verified, and 558 financial figures (3 companies × FY2021–26 × 31 line items) collected with page references.
-> - Every figure passes 90 accounting-identity checks, 372 cross-report comparisons (2 restatements, both explained) and 54 second-source comparisons.
+> - Every figure passes 90 accounting-identity checks, 372 cross-report comparisons (2 restatements, both explained) and 54 second-source comparisons. A random sample of 20 was also verified by hand against the PDFs: 20/20 correct.
 >
 > Full design: [PROJECT_NOTES.md](PROJECT_NOTES.md).
 
@@ -43,7 +43,7 @@ pytest                              # expect: all tests pass
 | Milestone | Status |
 |---|---|
 | 1. Setup, companies, sources | ✅ Done |
-| 2. Curated dataset + validation | ✅ Done (hand spot check pending) |
+| 2. Curated dataset + validation | ✅ Done |
 | 3. Financial metrics in Python | Next |
 | 4–10. SQL, retrieval, app, brief, evaluation | Planned |
 
